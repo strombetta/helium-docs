@@ -1,53 +1,7 @@
 items:
-- name: Helium documentation
-  href: index.md
-- name: Overview
-  href: articles/overview/toc.yml
-- name: What's new
-  href: articles/whats-new/toc.yml
-- name: Getting started
-  href: articles/getting-started/toc.yml
-- name: Fundamentals
-  href: articles/fundamentals/toc.yml
-- name: Configure Helium
-  href: articles/configuration/toc.yml
-- name: Identity and accounts
-  href: articles/identity/toc.yml
-- name: Onboarding
-  href: articles/onboarding/toc.yml
-- name: Organizations and tenancy
-  href: articles/organizations/toc.yml
-- name: Authorization
-  href: articles/authorization/toc.yml
-- name: Billing and subscriptions
-  href: articles/billing/toc.yml
-- name: Entitlements
-  href: articles/entitlements/toc.yml
-- name: Transactional email
-  href: articles/communications/toc.yml
-- name: Extensibility
-  href: articles/extensibility/toc.yml
-- name: Persistence and migrations
-  href: articles/persistence/toc.yml
-- name: Durable processing
-  href: articles/durable-processing/toc.yml
-- name: ASP.NET Core hosting
-  href: articles/hosting/toc.yml
-- name: Deployment
-  href: articles/deployment/toc.yml
-- name: Logging and diagnostics
-  href: articles/diagnostics/toc.yml
-- name: Security
-  href: articles/security/toc.yml
-- name: Testing
-  href: articles/testing/toc.yml
-- name: Performance and scalability
-  href: articles/performance/toc.yml
-- name: Troubleshooting
-  href: articles/troubleshooting/toc.yml
-- name: API reference
-  href: api/toc.yml
-- name: Reference
-  href: reference/toc.yml
-- name: Contribute
-  href: articles/contributing/toc.yml
+- name: Docs
+  href: articles/
+- name: API
+  href: api/
+- name: Extensions
+  href: articles/extensibility/
