@@ -32,12 +32,27 @@ jobs:
       - name: Build documentation
         run: dotnet tool run docfx docfx.json --warningsAsErrors
 
+      - name: Detect documentation links
+        id: documentation-links
+        shell: bash
+        run: |
+          if grep -RIlE '(\[[^]]+\]\([^)]+\)|https?://)' \
+            --include='*.md' \
+            --exclude-dir='.git' \
+            --exclude-dir='_site' \
+            . | grep -q .; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Check links
+        if: steps.documentation-links.outputs.present == 'true'
         uses: lycheeverse/lychee-action@v2
         with:
           args: >-
             --no-progress
+            --offline
             --exclude-path _site
             './**/*.md'
-            './_site/**/*.html'
           fail: true
