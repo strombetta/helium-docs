@@ -1,0 +1,27 @@
+items:
+- name: API reference
+  href: index.md
+- name: Application composition
+  href: application-composition.md
+- name: Common contracts
+  href: common-contracts.md
+- name: Identity
+  href: identity.md
+- name: Organizations
+  href: organizations.md
+- name: Authorization
+  href: authorization.md
+- name: Billing
+  href: billing.md
+- name: Entitlements
+  href: entitlements.md
+- name: Communications
+  href: communications.md
+- name: Lifecycle
+  href: lifecycle.md
+- name: ASP.NET Core hosting
+  href: aspnetcore-hosting.md
+- name: Presentation
+  href: presentation.md
+- name: Testing
+  href: testing.md

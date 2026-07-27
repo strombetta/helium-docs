@@ -1,0 +1,17 @@
+items:
+- name: Entitlements
+  href: index.md
+- name: Plans and entitlement keys
+  href: plans-and-keys.md
+- name: Configure plan entitlements
+  href: configure.md
+- name: Evaluate an entitlement
+  href: evaluate.md
+- name: Effective entitlement snapshots
+  href: effective-snapshots.md
+- name: Entitlement denial reasons
+  href: denial-reasons.md
+- name: Use entitlements in authorization
+  href: authorization.md
+- name: Test entitlement-dependent features
+  href: testing.md

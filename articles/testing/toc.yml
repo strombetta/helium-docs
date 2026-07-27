@@ -1,0 +1,25 @@
+items:
+- name: Testing
+  href: index.md
+- name: Trombetta.SaaS.Testing
+  href: testing-package.md
+- name: Test authenticated account context
+  href: authenticated-account-context.md
+- name: Test organization context
+  href: organization-context.md
+- name: Test authorization decisions
+  href: authorization-decisions.md
+- name: Test entitlements
+  href: entitlements.md
+- name: Test lifecycle handlers
+  href: lifecycle-handlers.md
+- name: Test transactional email providers
+  href: email-providers.md
+- name: PostgreSQL integration tests
+  href: postgresql-integration.md
+- name: Tenant-isolation tests
+  href: tenant-isolation.md
+- name: Migration tests
+  href: migrations.md
+- name: Upgrade tests
+  href: upgrades.md

@@ -1,0 +1,27 @@
+items:
+- name: Deployment
+  href: index.md
+- name: Supported production topology
+  href: supported-topology.md
+- name: Build the application container
+  href: build-container.md
+- name: Deploy to a Linux host
+  href: linux-host.md
+- name: Configure a reverse proxy and TLS
+  href: reverse-proxy-and-tls.md
+- name: Configure external PostgreSQL
+  href: external-postgresql.md
+- name: Configure production secrets
+  href: production-secrets.md
+- name: Configure Stripe webhooks
+  href: stripe-webhooks.md
+- name: Configure transactional email
+  href: transactional-email.md
+- name: Apply production migrations
+  href: production-migrations.md
+- name: Verify application health
+  href: health-verification.md
+- name: Upgrade a deployment
+  href: upgrade.md
+- name: Roll back a deployment
+  href: rollback.md

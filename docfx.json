@@ -1,0 +1,35 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "build": {
+    "content": [
+      {
+        "files": [
+          "index.md",
+          "404.md",
+          "toc.yml",
+          "articles/**/*.{md,yml}",
+          "api/**/*.{md,yml}",
+          "reference/**/*.{md,yml}"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "staticwebapp.config.json"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "Helium",
+      "_appTitle": "Helium documentation",
+      "_enableSearch": true
+    }
+  }
+}

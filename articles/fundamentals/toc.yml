@@ -1,0 +1,27 @@
+items:
+- name: Fundamentals
+  href: index.md
+- name: Reference application architecture
+  href: reference-architecture.md
+- name: Package and module organization
+  href: packages-and-modules.md
+- name: Application composition
+  href: application-composition.md
+- name: Public contracts and internal implementation
+  href: public-contracts.md
+- name: Accounts and authenticated account context
+  href: accounts-and-account-context.md
+- name: Organizations and tenant context
+  href: organizations-and-tenant-context.md
+- name: Memberships, roles and authorization
+  href: memberships-roles-authorization.md
+- name: Plans, subscriptions and entitlements
+  href: plans-subscriptions-entitlements.md
+- name: Operation results and errors
+  href: operation-results-and-errors.md
+- name: Lifecycle events
+  href: lifecycle-events.md
+- name: Durable processing
+  href: durable-processing.md
+- name: Framework and consumer data ownership
+  href: data-ownership.md

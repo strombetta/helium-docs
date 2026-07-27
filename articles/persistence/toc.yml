@@ -1,0 +1,27 @@
+items:
+- name: Persistence and migrations
+  href: index.md
+- name: Helium schema ownership
+  href: schema-ownership.md
+- name: Consumer data boundaries
+  href: consumer-data-boundaries.md
+- name: PostgreSQL requirements
+  href: postgresql-requirements.md
+- name: Framework DbContext
+  href: framework-dbcontext.md
+- name: Framework migrations
+  href: framework-migrations.md
+- name: Migration host
+  href: migration-host.md
+- name: Apply migrations
+  href: apply-migrations.md
+- name: Migration compatibility checks
+  href: compatibility-checks.md
+- name: Upgrade the framework schema
+  href: upgrade-schema.md
+- name: Rollback considerations
+  href: rollback.md
+- name: Concurrency handling
+  href: concurrency.md
+- name: Backup and recovery responsibilities
+  href: backup-and-recovery.md

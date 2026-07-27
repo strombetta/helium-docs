@@ -1,0 +1,27 @@
+items:
+- name: Identity and accounts
+  href: index.md
+- name: Account registration
+  href: account-registration.md
+- name: Account profiles
+  href: account-profiles.md
+- name: Email verification
+  href: email-verification.md
+- name: Password sign-in
+  href: password-sign-in.md
+- name: Authentication sessions
+  href: authentication-sessions.md
+- name: Sign-out and session revocation
+  href: sign-out-and-revocation.md
+- name: Password recovery and reset
+  href: password-recovery-and-reset.md
+- name: Password change
+  href: password-change.md
+- name: Account lockout and abuse resistance
+  href: lockout-and-abuse-resistance.md
+- name: Authenticated account context
+  href: authenticated-account-context.md
+- name: Identity lifecycle events
+  href: lifecycle-events.md
+- name: Identity security considerations
+  href: security-considerations.md

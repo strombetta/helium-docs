@@ -1,0 +1,58 @@
+name: Validate documentation
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v5
+        with:
+          global-json-file: global.json
+
+      - name: Restore local tools
+        run: dotnet tool restore
+
+      - name: Build documentation
+        run: dotnet tool run docfx docfx.json --warningsAsErrors
+
+      - name: Detect documentation links
+        id: documentation-links
+        shell: bash
+        run: |
+          if grep -RIlE '(\[[^]]+\]\([^)]+\)|https?://)' \
+            --include='*.md' \
+            --exclude-dir='.git' \
+            --exclude-dir='_site' \
+            . | grep -q .; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check links
+        if: steps.documentation-links.outputs.present == 'true'
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --offline
+            --exclude-path _site
+            './**/*.md'
+          fail: true

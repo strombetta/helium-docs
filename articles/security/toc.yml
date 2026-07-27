@@ -1,0 +1,27 @@
+items:
+- name: Security
+  href: index.md
+- name: Security model
+  href: security-model.md
+- name: Organization isolation
+  href: organization-isolation.md
+- name: Password storage
+  href: password-storage.md
+- name: Verification and reset tokens
+  href: tokens.md
+- name: Authentication cookies
+  href: authentication-cookies.md
+- name: Session expiration and revocation
+  href: session-expiration-and-revocation.md
+- name: Authorization boundaries
+  href: authorization-boundaries.md
+- name: Stripe webhook authenticity
+  href: stripe-webhook-authenticity.md
+- name: Secrets management
+  href: secrets-management.md
+- name: Logging sensitive information
+  href: sensitive-logging.md
+- name: Security deployment checklist
+  href: deployment-checklist.md
+- name: Report a vulnerability
+  href: report-vulnerability.md

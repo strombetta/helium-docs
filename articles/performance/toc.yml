@@ -1,0 +1,17 @@
+items:
+- name: Performance and scalability
+  href: index.md
+- name: PostgreSQL connection budgeting
+  href: postgresql-connection-budgeting.md
+- name: Durable worker concurrency
+  href: worker-concurrency.md
+- name: Query and index considerations
+  href: queries-and-indexes.md
+- name: External-provider latency
+  href: external-provider-latency.md
+- name: Background processing capacity
+  href: background-processing-capacity.md
+- name: Supported deployment limits
+  href: supported-limits.md
+- name: Scaling roadmap
+  href: scaling-roadmap.md

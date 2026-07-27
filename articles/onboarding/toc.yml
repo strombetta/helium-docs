@@ -1,0 +1,13 @@
+items:
+- name: Onboarding
+  href: index.md
+- name: Onboarding state
+  href: state.md
+- name: First-organization creation
+  href: first-organization.md
+- name: Transactional onboarding
+  href: transactional-onboarding.md
+- name: Onboarding completion
+  href: completion.md
+- name: Customize the onboarding experience
+  href: customize-experience.md
