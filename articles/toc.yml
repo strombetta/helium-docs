@@ -1,0 +1,558 @@
+order: -100
+items:
+- name: Get started
+  expanded: true
+  items:
+  - name: Overview
+    href: overview/index.md
+    items:
+    - name: What is Helium?
+      href: overview/what-is-helium.md
+    - name: Why use Helium?
+      href: overview/why-use-helium.md
+    - name: Supported application model
+      href: overview/supported-application-model.md
+    - name: Helium and Trombetta.SaaS naming
+      href: overview/naming.md
+    - name: Architecture at a glance
+      href: overview/architecture-at-a-glance.md
+    - name: Supported versions
+      href: overview/supported-versions.md
+    - name: Product scope and current limitations
+      href: overview/scope-and-limitations.md
+  - name: What's new
+    href: whats-new/index.md
+    items:
+    - name: Current release
+      href: whats-new/current-release.md
+    - name: Preview release
+      href: whats-new/preview-release.md
+    - name: Breaking changes
+      href: whats-new/breaking-changes.md
+    - name: Deprecations
+      href: whats-new/deprecations.md
+    - name: Release notes
+      href: whats-new/release-notes.md
+    - name: Support policy
+      href: whats-new/support-policy.md
+  - name: Getting started
+    href: getting-started/index.md
+    items:
+    - name: Prerequisites
+      href: getting-started/prerequisites.md
+    - name: Install the Helium project template
+      href: getting-started/install-template.md
+    - name: Create your first Helium application
+      href: getting-started/create-application.md
+    - name: Configure local development
+      href: getting-started/configure-local-development.md
+    - name: Configure PostgreSQL
+      href: getting-started/configure-postgresql.md
+    - name: Create and migrate the database
+      href: getting-started/create-and-migrate-database.md
+    - name: Run the application
+      href: getting-started/run-application.md
+    - name: Register the first account
+      href: getting-started/register-first-account.md
+    - name: Complete organization onboarding
+      href: getting-started/complete-onboarding.md
+    - name: Next steps
+      href: getting-started/next-steps.md
+- name: Essentials
+  expanded: true
+  items:
+  - name: Fundamentals
+    href: fundamentals/index.md
+    items:
+    - name: Reference application architecture
+      href: fundamentals/reference-architecture.md
+    - name: Package and module organization
+      href: fundamentals/packages-and-modules.md
+    - name: Application composition
+      href: fundamentals/application-composition.md
+    - name: Public contracts and internal implementation
+      href: fundamentals/public-contracts.md
+    - name: Accounts and authenticated account context
+      href: fundamentals/accounts-and-account-context.md
+    - name: Organizations and tenant context
+      href: fundamentals/organizations-and-tenant-context.md
+    - name: Memberships, roles and authorization
+      href: fundamentals/memberships-roles-authorization.md
+    - name: Plans, subscriptions and entitlements
+      href: fundamentals/plans-subscriptions-entitlements.md
+    - name: Operation results and errors
+      href: fundamentals/operation-results-and-errors.md
+    - name: Lifecycle events
+      href: fundamentals/lifecycle-events.md
+    - name: Durable processing
+      href: fundamentals/durable-processing.md
+    - name: Framework and consumer data ownership
+      href: fundamentals/data-ownership.md
+  - name: Configure Helium
+    href: configuration/index.md
+    items:
+    - name: Register Helium services
+      href: configuration/register-services.md
+    - name: Configuration model
+      href: configuration/configuration-model.md
+    - name: Startup validation
+      href: configuration/startup-validation.md
+    - name: Environment-specific configuration
+      href: configuration/environment-specific-configuration.md
+    - name: Secrets and credentials
+      href: configuration/secrets-and-credentials.md
+    - name: PostgreSQL configuration
+      href: configuration/postgresql.md
+    - name: Authentication and session configuration
+      href: configuration/authentication-and-sessions.md
+    - name: Transactional email configuration
+      href: configuration/transactional-email.md
+    - name: Stripe configuration
+      href: configuration/stripe.md
+    - name: Reference UI configuration
+      href: configuration/reference-ui.md
+    - name: Branding and navigation
+      href: configuration/branding-and-navigation.md
+  - name: Identity and accounts
+    href: identity/index.md
+    items:
+    - name: Account registration
+      href: identity/account-registration.md
+    - name: Account profiles
+      href: identity/account-profiles.md
+    - name: Email verification
+      href: identity/email-verification.md
+    - name: Password sign-in
+      href: identity/password-sign-in.md
+    - name: Authentication sessions
+      href: identity/authentication-sessions.md
+    - name: Sign-out and session revocation
+      href: identity/sign-out-and-revocation.md
+    - name: Password recovery and reset
+      href: identity/password-recovery-and-reset.md
+    - name: Password change
+      href: identity/password-change.md
+    - name: Account lockout and abuse resistance
+      href: identity/lockout-and-abuse-resistance.md
+    - name: Authenticated account context
+      href: identity/authenticated-account-context.md
+    - name: Identity lifecycle events
+      href: identity/lifecycle-events.md
+    - name: Identity security considerations
+      href: identity/security-considerations.md
+  - name: Onboarding
+    href: onboarding/index.md
+    items:
+    - name: Onboarding state
+      href: onboarding/state.md
+    - name: First-organization creation
+      href: onboarding/first-organization.md
+    - name: Transactional onboarding
+      href: onboarding/transactional-onboarding.md
+    - name: Onboarding completion
+      href: onboarding/completion.md
+    - name: Customize the onboarding experience
+      href: onboarding/customize-experience.md
+  - name: Organizations and tenancy
+    href: organizations/index.md
+    items:
+    - name: Organization model
+      href: organizations/organization-model.md
+    - name: Create and retrieve organizations
+      href: organizations/create-and-retrieve.md
+    - name: Organization settings
+      href: organizations/settings.md
+    - name: Memberships
+      href: organizations/memberships.md
+    - name: Invitations
+      href: organizations/invitations.md
+    - name: Owner, Administrator and Member roles
+      href: organizations/roles.md
+    - name: Ownership transfer
+      href: organizations/ownership-transfer.md
+    - name: Active organization selection
+      href: organizations/active-organization.md
+    - name: Validated organization context
+      href: organizations/validated-context.md
+    - name: Organization isolation
+      href: organizations/isolation.md
+    - name: Organization lifecycle events
+      href: organizations/lifecycle-events.md
+  - name: Authorization
+    href: authorization/index.md
+    items:
+    - name: Authorization model
+      href: authorization/model.md
+    - name: Framework authorization policies
+      href: authorization/framework-policies.md
+    - name: Evaluate organization authorization
+      href: authorization/evaluate.md
+    - name: Protect application operations
+      href: authorization/protect-operations.md
+    - name: Protect ASP.NET Core endpoints
+      href: authorization/protect-endpoints.md
+    - name: Combine roles and entitlements
+      href: authorization/roles-and-entitlements.md
+    - name: Define consumer policies
+      href: authorization/consumer-policies.md
+    - name: Authorization troubleshooting
+      href: authorization/troubleshooting.md
+  - name: Billing and subscriptions
+    href: billing/index.md
+    items:
+    - name: Configure Stripe
+      href: billing/configure-stripe.md
+    - name: Plan catalog
+      href: billing/plan-catalog.md
+    - name: Monthly and annual plans
+      href: billing/billing-intervals.md
+    - name: Free plans and trials
+      href: billing/free-plans-and-trials.md
+    - name: Start a checkout session
+      href: billing/checkout.md
+    - name: Stripe customer portal
+      href: billing/customer-portal.md
+    - name: Stripe webhooks
+      href: billing/webhooks.md
+    - name: Local subscription state
+      href: billing/local-subscription-state.md
+    - name: Subscription synchronization
+      href: billing/synchronization.md
+    - name: Cancellation and paid-period access
+      href: billing/cancellation.md
+    - name: Payment failures
+      href: billing/payment-failures.md
+    - name: Billing authorization
+      href: billing/authorization.md
+    - name: Billing troubleshooting
+      href: billing/troubleshooting.md
+  - name: Entitlements
+    href: entitlements/index.md
+    items:
+    - name: Plans and entitlement keys
+      href: entitlements/plans-and-keys.md
+    - name: Configure plan entitlements
+      href: entitlements/configure.md
+    - name: Evaluate an entitlement
+      href: entitlements/evaluate.md
+    - name: Effective entitlement snapshots
+      href: entitlements/effective-snapshots.md
+    - name: Entitlement denial reasons
+      href: entitlements/denial-reasons.md
+    - name: Use entitlements in authorization
+      href: entitlements/authorization.md
+    - name: Test entitlement-dependent features
+      href: entitlements/testing.md
+  - name: Transactional email
+    href: communications/index.md
+    items:
+    - name: Supported transactional workflows
+      href: communications/workflows.md
+    - name: Configure an email provider
+      href: communications/configure-provider.md
+    - name: Implement ITransactionalEmailProvider
+      href: communications/implement-provider.md
+    - name: Message types and templates
+      href: communications/message-types-and-templates.md
+    - name: Sender and branding configuration
+      href: communications/sender-and-branding.md
+    - name: Durable email delivery
+      href: communications/durable-delivery.md
+    - name: Retries and delivery failures
+      href: communications/retries-and-failures.md
+    - name: Email diagnostics
+      href: communications/diagnostics.md
+    - name: Test an email provider
+      href: communications/testing.md
+- name: Advanced
+  expanded: true
+  items:
+  - name: Persistence and migrations
+    href: persistence/index.md
+    items:
+    - name: Helium schema ownership
+      href: persistence/schema-ownership.md
+    - name: Consumer data boundaries
+      href: persistence/consumer-data-boundaries.md
+    - name: PostgreSQL requirements
+      href: persistence/postgresql-requirements.md
+    - name: Framework DbContext
+      href: persistence/framework-dbcontext.md
+    - name: Framework migrations
+      href: persistence/framework-migrations.md
+    - name: Migration host
+      href: persistence/migration-host.md
+    - name: Apply migrations
+      href: persistence/apply-migrations.md
+    - name: Migration compatibility checks
+      href: persistence/compatibility-checks.md
+    - name: Upgrade the framework schema
+      href: persistence/upgrade-schema.md
+    - name: Rollback considerations
+      href: persistence/rollback.md
+    - name: Concurrency handling
+      href: persistence/concurrency.md
+    - name: Backup and recovery responsibilities
+      href: persistence/backup-and-recovery.md
+  - name: Durable processing
+    href: durable-processing/index.md
+    items:
+    - name: Inbox and outbox model
+      href: durable-processing/inbox-and-outbox.md
+    - name: Atomic durable work
+      href: durable-processing/atomic-work.md
+    - name: Worker hosting
+      href: durable-processing/worker-hosting.md
+    - name: Work categories
+      href: durable-processing/work-categories.md
+    - name: Acquisition and leasing
+      href: durable-processing/acquisition-and-leasing.md
+    - name: Lease renewal
+      href: durable-processing/lease-renewal.md
+    - name: Retry policies
+      href: durable-processing/retry-policies.md
+    - name: Deduplication and idempotency
+      href: durable-processing/deduplication.md
+    - name: Failed work
+      href: durable-processing/failed-work.md
+    - name: Graceful shutdown
+      href: durable-processing/graceful-shutdown.md
+    - name: Operational recovery
+      href: durable-processing/recovery.md
+  - name: ASP.NET Core hosting
+    href: hosting/index.md
+    items:
+    - name: Service registration
+      href: hosting/service-registration.md
+    - name: Middleware ordering
+      href: hosting/middleware-ordering.md
+    - name: Authentication integration
+      href: hosting/authentication-integration.md
+    - name: Account context middleware
+      href: hosting/account-context-middleware.md
+    - name: Organization context middleware
+      href: hosting/organization-context-middleware.md
+    - name: Map Helium endpoints
+      href: hosting/map-endpoints.md
+    - name: Reference Razor presentation
+      href: hosting/reference-razor-presentation.md
+    - name: Disable or replace the presentation
+      href: hosting/replace-presentation.md
+    - name: Health endpoints
+      href: hosting/health-endpoints.md
+  - name: Deployment
+    href: deployment/index.md
+    items:
+    - name: Supported production topology
+      href: deployment/supported-topology.md
+    - name: Build the application container
+      href: deployment/build-container.md
+    - name: Deploy to a Linux host
+      href: deployment/linux-host.md
+    - name: Configure a reverse proxy and TLS
+      href: deployment/reverse-proxy-and-tls.md
+    - name: Configure external PostgreSQL
+      href: deployment/external-postgresql.md
+    - name: Configure production secrets
+      href: deployment/production-secrets.md
+    - name: Configure Stripe webhooks
+      href: deployment/stripe-webhooks.md
+    - name: Configure transactional email
+      href: deployment/transactional-email.md
+    - name: Apply production migrations
+      href: deployment/production-migrations.md
+    - name: Verify application health
+      href: deployment/health-verification.md
+    - name: Upgrade a deployment
+      href: deployment/upgrade.md
+    - name: Roll back a deployment
+      href: deployment/rollback.md
+  - name: Logging and diagnostics
+    href: diagnostics/index.md
+    items:
+    - name: Logging categories
+      href: diagnostics/logging-categories.md
+    - name: Correlation identifiers
+      href: diagnostics/correlation-identifiers.md
+    - name: Configuration diagnostics
+      href: diagnostics/configuration.md
+    - name: Identity diagnostics
+      href: diagnostics/identity.md
+    - name: Organization and authorization diagnostics
+      href: diagnostics/organizations-and-authorization.md
+    - name: Stripe webhook diagnostics
+      href: diagnostics/stripe-webhooks.md
+    - name: Transactional email diagnostics
+      href: diagnostics/transactional-email.md
+    - name: Durable worker diagnostics
+      href: diagnostics/durable-workers.md
+    - name: Liveness and readiness
+      href: diagnostics/liveness-and-readiness.md
+    - name: Sensitive-data handling
+      href: diagnostics/sensitive-data.md
+  - name: Security
+    href: security/index.md
+    items:
+    - name: Security model
+      href: security/security-model.md
+    - name: Organization isolation
+      href: security/organization-isolation.md
+    - name: Password storage
+      href: security/password-storage.md
+    - name: Verification and reset tokens
+      href: security/tokens.md
+    - name: Authentication cookies
+      href: security/authentication-cookies.md
+    - name: Session expiration and revocation
+      href: security/session-expiration-and-revocation.md
+    - name: Authorization boundaries
+      href: security/authorization-boundaries.md
+    - name: Stripe webhook authenticity
+      href: security/stripe-webhook-authenticity.md
+    - name: Secrets management
+      href: security/secrets-management.md
+    - name: Logging sensitive information
+      href: security/sensitive-logging.md
+    - name: Security deployment checklist
+      href: security/deployment-checklist.md
+    - name: Report a vulnerability
+      href: security/report-vulnerability.md
+  - name: Testing
+    href: testing/index.md
+    items:
+    - name: Trombetta.SaaS.Testing
+      href: testing/testing-package.md
+    - name: Test authenticated account context
+      href: testing/authenticated-account-context.md
+    - name: Test organization context
+      href: testing/organization-context.md
+    - name: Test authorization decisions
+      href: testing/authorization-decisions.md
+    - name: Test entitlements
+      href: testing/entitlements.md
+    - name: Test lifecycle handlers
+      href: testing/lifecycle-handlers.md
+    - name: Test transactional email providers
+      href: testing/email-providers.md
+    - name: PostgreSQL integration tests
+      href: testing/postgresql-integration.md
+    - name: Tenant-isolation tests
+      href: testing/tenant-isolation.md
+    - name: Migration tests
+      href: testing/migrations.md
+    - name: Upgrade tests
+      href: testing/upgrades.md
+  - name: Performance and scalability
+    href: performance/index.md
+    items:
+    - name: PostgreSQL connection budgeting
+      href: performance/postgresql-connection-budgeting.md
+    - name: Durable worker concurrency
+      href: performance/worker-concurrency.md
+    - name: Query and index considerations
+      href: performance/queries-and-indexes.md
+    - name: External-provider latency
+      href: performance/external-provider-latency.md
+    - name: Background processing capacity
+      href: performance/background-processing-capacity.md
+    - name: Supported deployment limits
+      href: performance/supported-limits.md
+    - name: Scaling roadmap
+      href: performance/scaling-roadmap.md
+  - name: Troubleshooting
+    href: troubleshooting/index.md
+    items:
+    - name: Startup and configuration failures
+      href: troubleshooting/startup-and-configuration.md
+    - name: Package restore and compatibility
+      href: troubleshooting/package-restore-and-compatibility.md
+    - name: Database connection failures
+      href: troubleshooting/database-connections.md
+    - name: Migration failures
+      href: troubleshooting/migrations.md
+    - name: Registration and verification failures
+      href: troubleshooting/registration-and-verification.md
+    - name: Authentication and cookie failures
+      href: troubleshooting/authentication-and-cookies.md
+    - name: Active-organization failures
+      href: troubleshooting/active-organization.md
+    - name: Authorization failures
+      href: troubleshooting/authorization.md
+    - name: Email delivery failures
+      href: troubleshooting/email-delivery.md
+    - name: Stripe webhook failures
+      href: troubleshooting/stripe-webhooks.md
+    - name: Subscription-state inconsistencies
+      href: troubleshooting/subscription-state.md
+    - name: Durable worker failures
+      href: troubleshooting/durable-workers.md
+    - name: Collect diagnostic information
+      href: troubleshooting/collect-diagnostics.md
+- name: Reference
+  expanded: true
+  items:
+  - name: Reference
+    href: ../reference/index.md
+    items:
+    - name: Package reference
+      href: ../reference/packages.md
+    - name: Configuration reference
+      href: ../reference/configuration.md
+    - name: Operation error codes
+      href: ../reference/operation-error-codes.md
+    - name: Authorization policy identifiers
+      href: ../reference/authorization-policies.md
+    - name: Lifecycle event catalog
+      href: ../reference/lifecycle-events.md
+    - name: Transactional message types
+      href: ../reference/transactional-message-types.md
+    - name: Endpoint reference
+      href: ../reference/endpoints.md
+    - name: Compatibility matrix
+      href: ../reference/compatibility.md
+    - name: Known limitations
+      href: ../reference/known-limitations.md
+    - name: Glossary
+      href: ../reference/glossary.md
+- name: Contribute
+  expanded: true
+  items:
+  - name: Contribute
+    href: contributing/index.md
+    items:
+    - name: Repository structure
+      href: contributing/repository-structure.md
+    - name: Build the documentation locally
+      href: contributing/build-locally.md
+    - name: Documentation architecture
+      href: contributing/documentation-architecture.md
+    - name: Authoring conventions
+      href: contributing/authoring-conventions.md
+    - name: TOC conventions
+      href: contributing/toc-conventions.md
+    - name: API documentation generation
+      href: contributing/api-generation.md
+    - name: Validate links and cross-references
+      href: contributing/link-validation.md
+    - name: Preview environments
+      href: contributing/preview-environments.md
+    - name: Publication process
+      href: contributing/publication-process.md
+    - name: Build Helium from source
+      href: contributing/build-from-source.md
+    - name: Run repository validation
+      href: contributing/repository-validation.md
+    - name: Coding and namespace conventions
+      href: contributing/coding-and-namespace-conventions.md
+    - name: Architecture Decision Records
+      href: contributing/architecture-decisions.md
+    - name: Public API compatibility policy
+      href: contributing/public-api-compatibility.md
+    - name: Testing policy
+      href: contributing/testing-policy.md
+    - name: Packaging and versioning
+      href: contributing/packaging-and-versioning.md
+    - name: Issue and pull-request workflow
+      href: contributing/issues-and-pull-requests.md
+    - name: Release process
+      href: contributing/release-process.md
