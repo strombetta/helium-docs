@@ -1,0 +1,19 @@
+items:
+- name: Authorization
+  href: index.md
+- name: Authorization model
+  href: model.md
+- name: Framework authorization policies
+  href: framework-policies.md
+- name: Evaluate organization authorization
+  href: evaluate.md
+- name: Protect application operations
+  href: protect-operations.md
+- name: Protect ASP.NET Core endpoints
+  href: protect-endpoints.md
+- name: Combine roles and entitlements
+  href: roles-and-entitlements.md
+- name: Define consumer policies
+  href: consumer-policies.md
+- name: Authorization troubleshooting
+  href: troubleshooting.md

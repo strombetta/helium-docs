@@ -1,0 +1,39 @@
+items:
+- name: Contribute
+  href: index.md
+- name: Repository structure
+  href: repository-structure.md
+- name: Build the documentation locally
+  href: build-locally.md
+- name: Documentation architecture
+  href: documentation-architecture.md
+- name: Authoring conventions
+  href: authoring-conventions.md
+- name: TOC conventions
+  href: toc-conventions.md
+- name: API documentation generation
+  href: api-generation.md
+- name: Validate links and cross-references
+  href: link-validation.md
+- name: Preview environments
+  href: preview-environments.md
+- name: Publication process
+  href: publication-process.md
+- name: Build Helium from source
+  href: build-from-source.md
+- name: Run repository validation
+  href: repository-validation.md
+- name: Coding and namespace conventions
+  href: coding-and-namespace-conventions.md
+- name: Architecture Decision Records
+  href: architecture-decisions.md
+- name: Public API compatibility policy
+  href: public-api-compatibility.md
+- name: Testing policy
+  href: testing-policy.md
+- name: Packaging and versioning
+  href: packaging-and-versioning.md
+- name: Issue and pull-request workflow
+  href: issues-and-pull-requests.md
+- name: Release process
+  href: release-process.md

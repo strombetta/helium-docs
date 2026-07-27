@@ -1,0 +1,21 @@
+items:
+- name: ASP.NET Core hosting
+  href: index.md
+- name: Service registration
+  href: service-registration.md
+- name: Middleware ordering
+  href: middleware-ordering.md
+- name: Authentication integration
+  href: authentication-integration.md
+- name: Account context middleware
+  href: account-context-middleware.md
+- name: Organization context middleware
+  href: organization-context-middleware.md
+- name: Map Helium endpoints
+  href: map-endpoints.md
+- name: Reference Razor presentation
+  href: reference-razor-presentation.md
+- name: Disable or replace the presentation
+  href: replace-presentation.md
+- name: Health endpoints
+  href: health-endpoints.md

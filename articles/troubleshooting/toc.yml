@@ -1,0 +1,29 @@
+items:
+- name: Troubleshooting
+  href: index.md
+- name: Startup and configuration failures
+  href: startup-and-configuration.md
+- name: Package restore and compatibility
+  href: package-restore-and-compatibility.md
+- name: Database connection failures
+  href: database-connections.md
+- name: Migration failures
+  href: migrations.md
+- name: Registration and verification failures
+  href: registration-and-verification.md
+- name: Authentication and cookie failures
+  href: authentication-and-cookies.md
+- name: Active-organization failures
+  href: active-organization.md
+- name: Authorization failures
+  href: authorization.md
+- name: Email delivery failures
+  href: email-delivery.md
+- name: Stripe webhook failures
+  href: stripe-webhooks.md
+- name: Subscription-state inconsistencies
+  href: subscription-state.md
+- name: Durable worker failures
+  href: durable-workers.md
+- name: Collect diagnostic information
+  href: collect-diagnostics.md

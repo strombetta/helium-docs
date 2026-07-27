@@ -1,0 +1,25 @@
+items:
+- name: Configure Helium
+  href: index.md
+- name: Register Helium services
+  href: register-services.md
+- name: Configuration model
+  href: configuration-model.md
+- name: Startup validation
+  href: startup-validation.md
+- name: Environment-specific configuration
+  href: environment-specific-configuration.md
+- name: Secrets and credentials
+  href: secrets-and-credentials.md
+- name: PostgreSQL configuration
+  href: postgresql.md
+- name: Authentication and session configuration
+  href: authentication-and-sessions.md
+- name: Transactional email configuration
+  href: transactional-email.md
+- name: Stripe configuration
+  href: stripe.md
+- name: Reference UI configuration
+  href: reference-ui.md
+- name: Branding and navigation
+  href: branding-and-navigation.md

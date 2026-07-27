@@ -1,0 +1,80 @@
+name: Deploy documentation
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - closed
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: deploy-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    if: github.event_name != 'pull_request' || github.event.action != 'closed'
+    runs-on: ubuntu-latest
+    env:
+      AZURE_STATIC_WEB_APPS_API_TOKEN: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v5
+        with:
+          global-json-file: global.json
+
+      - name: Restore local tools
+        run: dotnet tool restore
+
+      - name: Build documentation
+        run: dotnet tool run docfx docfx.json --warningsAsErrors
+
+      - name: Deploy to Azure Static Web Apps
+        if: env.AZURE_STATIC_WEB_APPS_API_TOKEN != ''
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ env.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          action: upload
+          app_location: _site
+          api_location: ''
+          output_location: ''
+          skip_app_build: true
+
+      - name: Report missing deployment token
+        if: env.AZURE_STATIC_WEB_APPS_API_TOKEN == ''
+        run: echo "::warning::Azure deployment skipped because AZURE_STATIC_WEB_APPS_API_TOKEN is not configured."
+
+  close-preview:
+    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    env:
+      AZURE_STATIC_WEB_APPS_API_TOKEN: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+
+    steps:
+      - name: Close Azure preview environment
+        if: env.AZURE_STATIC_WEB_APPS_API_TOKEN != ''
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ env.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          action: close
+
+      - name: Report missing deployment token
+        if: env.AZURE_STATIC_WEB_APPS_API_TOKEN == ''
+        run: echo "::warning::Azure preview cleanup skipped because AZURE_STATIC_WEB_APPS_API_TOKEN is not configured."

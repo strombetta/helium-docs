@@ -1,0 +1,21 @@
+items:
+- name: Transactional email
+  href: index.md
+- name: Supported transactional workflows
+  href: workflows.md
+- name: Configure an email provider
+  href: configure-provider.md
+- name: Implement ITransactionalEmailProvider
+  href: implement-provider.md
+- name: Message types and templates
+  href: message-types-and-templates.md
+- name: Sender and branding configuration
+  href: sender-and-branding.md
+- name: Durable email delivery
+  href: durable-delivery.md
+- name: Retries and delivery failures
+  href: retries-and-failures.md
+- name: Email diagnostics
+  href: diagnostics.md
+- name: Test an email provider
+  href: testing.md

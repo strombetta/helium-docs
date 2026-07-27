@@ -1,0 +1,25 @@
+items:
+- name: Durable processing
+  href: index.md
+- name: Inbox and outbox model
+  href: inbox-and-outbox.md
+- name: Atomic durable work
+  href: atomic-work.md
+- name: Worker hosting
+  href: worker-hosting.md
+- name: Work categories
+  href: work-categories.md
+- name: Acquisition and leasing
+  href: acquisition-and-leasing.md
+- name: Lease renewal
+  href: lease-renewal.md
+- name: Retry policies
+  href: retry-policies.md
+- name: Deduplication and idempotency
+  href: deduplication.md
+- name: Failed work
+  href: failed-work.md
+- name: Graceful shutdown
+  href: graceful-shutdown.md
+- name: Operational recovery
+  href: recovery.md

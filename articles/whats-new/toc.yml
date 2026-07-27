@@ -1,0 +1,15 @@
+items:
+- name: What's new
+  href: index.md
+- name: Current release
+  href: current-release.md
+- name: Preview release
+  href: preview-release.md
+- name: Breaking changes
+  href: breaking-changes.md
+- name: Deprecations
+  href: deprecations.md
+- name: Release notes
+  href: release-notes.md
+- name: Support policy
+  href: support-policy.md

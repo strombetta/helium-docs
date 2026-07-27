@@ -1,0 +1,25 @@
+items:
+- name: Organizations and tenancy
+  href: index.md
+- name: Organization model
+  href: organization-model.md
+- name: Create and retrieve organizations
+  href: create-and-retrieve.md
+- name: Organization settings
+  href: settings.md
+- name: Memberships
+  href: memberships.md
+- name: Invitations
+  href: invitations.md
+- name: Owner, Administrator and Member roles
+  href: roles.md
+- name: Ownership transfer
+  href: ownership-transfer.md
+- name: Active organization selection
+  href: active-organization.md
+- name: Validated organization context
+  href: validated-context.md
+- name: Organization isolation
+  href: isolation.md
+- name: Organization lifecycle events
+  href: lifecycle-events.md

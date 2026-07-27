@@ -1,0 +1,29 @@
+items:
+- name: Billing and subscriptions
+  href: index.md
+- name: Configure Stripe
+  href: configure-stripe.md
+- name: Plan catalog
+  href: plan-catalog.md
+- name: Monthly and annual plans
+  href: billing-intervals.md
+- name: Free plans and trials
+  href: free-plans-and-trials.md
+- name: Start a checkout session
+  href: checkout.md
+- name: Stripe customer portal
+  href: customer-portal.md
+- name: Stripe webhooks
+  href: webhooks.md
+- name: Local subscription state
+  href: local-subscription-state.md
+- name: Subscription synchronization
+  href: synchronization.md
+- name: Cancellation and paid-period access
+  href: cancellation.md
+- name: Payment failures
+  href: payment-failures.md
+- name: Billing authorization
+  href: authorization.md
+- name: Billing troubleshooting
+  href: troubleshooting.md

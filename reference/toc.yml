@@ -1,0 +1,23 @@
+items:
+- name: Reference
+  href: index.md
+- name: Package reference
+  href: packages.md
+- name: Configuration reference
+  href: configuration.md
+- name: Operation error codes
+  href: operation-error-codes.md
+- name: Authorization policy identifiers
+  href: authorization-policies.md
+- name: Lifecycle event catalog
+  href: lifecycle-events.md
+- name: Transactional message types
+  href: transactional-message-types.md
+- name: Endpoint reference
+  href: endpoints.md
+- name: Compatibility matrix
+  href: compatibility.md
+- name: Known limitations
+  href: known-limitations.md
+- name: Glossary
+  href: glossary.md

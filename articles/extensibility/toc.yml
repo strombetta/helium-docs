@@ -1,0 +1,27 @@
+items:
+- name: Extensibility
+  href: index.md
+- name: Extension model
+  href: extension-model.md
+- name: Supported and unsupported customizations
+  href: supported-customizations.md
+- name: Public contracts
+  href: public-contracts.md
+- name: Register consumer services
+  href: register-consumer-services.md
+- name: Implement lifecycle handlers
+  href: lifecycle-handlers.md
+- name: Lifecycle event catalog
+  href: lifecycle-event-catalog.md
+- name: Idempotent lifecycle processing
+  href: idempotent-processing.md
+- name: Replace the transactional email provider
+  href: replace-email-provider.md
+- name: Add consumer authorization policies
+  href: consumer-authorization-policies.md
+- name: Customize branding and navigation
+  href: branding-and-navigation.md
+- name: Replace the reference presentation
+  href: replace-presentation.md
+- name: Compatibility rules for extensions
+  href: compatibility.md
