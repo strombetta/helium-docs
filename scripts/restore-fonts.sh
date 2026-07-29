@@ -3,7 +3,7 @@ set -euo pipefail
 
 font_directory="templates/helium/public/fonts"
 font_path="${font_directory}/manrope-latin-wght-normal.woff2"
-font_url="https://cdn.jsdelivr.net/fontsource/fonts/manrope:vf@5.3.0/latin-wght-normal.woff2"
+font_url="https://raw.githubusercontent.com/fontsource/font-files/9c76865650f64dd9242db524070753930bc7685c/fonts/variable/manrope/files/manrope-latin-wght-normal.woff2"
 expected_blob_sha="71eb731d558046199aa7f985adbf812890a093a1"
 
 mkdir -p "${font_directory}"
