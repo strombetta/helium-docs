@@ -1,0 +1,42 @@
+{
+  "index": {
+    "purpose": "Orient readers within a section or capability.",
+    "required_sections": ["Start here"],
+    "recommended_sections": ["Common tasks", "Key concepts", "Troubleshooting", "Reference"]
+  },
+  "overview": {
+    "purpose": "Explain what a product or capability provides, why it exists, and when it applies.",
+    "required_sections": [],
+    "recommended_sections": ["What Helium provides", "When to use it", "Limitations", "Next steps"]
+  },
+  "concept": {
+    "purpose": "Explain a model, relationship, invariant, lifecycle, or supported behavior.",
+    "required_sections": [],
+    "recommended_sections": ["Model", "Invariants", "Failure conditions", "Related tasks"]
+  },
+  "tutorial": {
+    "purpose": "Teach a complete, ordered workflow that produces a verifiable result.",
+    "required_sections": ["Prerequisites", "Verify the result", "Next steps"],
+    "recommended_sections": ["What you will build", "What you learned"]
+  },
+  "how-to": {
+    "purpose": "Show how to complete one specific operational task.",
+    "required_sections": ["Prerequisites", "Verify the result"],
+    "recommended_sections": ["Troubleshooting", "Next steps"]
+  },
+  "reference": {
+    "purpose": "Provide precise, systematic facts for quick consultation.",
+    "required_sections": [],
+    "recommended_sections": ["Example", "Related documentation"]
+  },
+  "troubleshooting": {
+    "purpose": "Lead readers from an observable symptom to diagnosis and resolution.",
+    "required_sections": ["Symptoms", "Possible causes", "Diagnostic steps", "Resolution", "Verify the resolution"],
+    "recommended_sections": ["Information to collect", "Related documentation"]
+  },
+  "release": {
+    "purpose": "Explain a release change, compatibility impact, deprecation, or upgrade requirement.",
+    "required_sections": ["Summary"],
+    "recommended_sections": ["Affected applications", "Required changes", "Verification", "Upgrade guidance"]
+  }
+}

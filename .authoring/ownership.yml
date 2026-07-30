@@ -1,0 +1,46 @@
+{
+  "owners": {
+    "documentation-maintainers": {
+      "description": "Own information architecture, editorial standards, DocFX configuration, and documentation publishing.",
+      "github": []
+    },
+    "framework-maintainers": {
+      "description": "Own framework-wide technical accuracy, public contracts, compatibility, and release behavior.",
+      "github": []
+    },
+    "capability-maintainers": {
+      "description": "Own technical accuracy for capability-specific guidance until dedicated area owners are assigned.",
+      "github": []
+    },
+    "operations-maintainers": {
+      "description": "Own deployment, persistence, diagnostics, security, performance, and operational guidance.",
+      "github": []
+    }
+  },
+  "areas": {
+    "product": ["documentation-maintainers", "framework-maintainers"],
+    "getting-started": ["documentation-maintainers", "framework-maintainers"],
+    "architecture": ["framework-maintainers", "documentation-maintainers"],
+    "configuration": ["framework-maintainers", "documentation-maintainers"],
+    "identity": ["capability-maintainers", "documentation-maintainers"],
+    "onboarding": ["capability-maintainers", "documentation-maintainers"],
+    "organizations": ["capability-maintainers", "documentation-maintainers"],
+    "authorization": ["capability-maintainers", "documentation-maintainers"],
+    "billing": ["capability-maintainers", "documentation-maintainers"],
+    "entitlements": ["capability-maintainers", "documentation-maintainers"],
+    "communications": ["capability-maintainers", "documentation-maintainers"],
+    "extensibility": ["framework-maintainers", "documentation-maintainers"],
+    "persistence": ["operations-maintainers", "documentation-maintainers"],
+    "durable-processing": ["operations-maintainers", "documentation-maintainers"],
+    "hosting": ["operations-maintainers", "documentation-maintainers"],
+    "deployment": ["operations-maintainers", "documentation-maintainers"],
+    "diagnostics": ["operations-maintainers", "documentation-maintainers"],
+    "security": ["operations-maintainers", "framework-maintainers", "documentation-maintainers"],
+    "testing": ["framework-maintainers", "documentation-maintainers"],
+    "performance": ["operations-maintainers", "documentation-maintainers"],
+    "troubleshooting": ["operations-maintainers", "documentation-maintainers"],
+    "compatibility": ["framework-maintainers", "documentation-maintainers"],
+    "api": ["framework-maintainers", "documentation-maintainers"],
+    "contributing": ["documentation-maintainers", "framework-maintainers"]
+  }
+}

@@ -1,0 +1,10 @@
+# Files subject to blocking authoring validation during staged migration.
+# Keep paths repository-relative, one per line, and add files only after review.
+
+articles/contributing/index.md
+articles/contributing/documentation-architecture.md
+articles/contributing/authoring-conventions.md
+articles/contributing/toc-conventions.md
+articles/contributing/metadata-reference.md
+articles/contributing/issues-and-pull-requests.md
+articles/contributing/publication-process.md
