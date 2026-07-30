@@ -1,0 +1,75 @@
+{
+  "content_type": [
+    "index",
+    "overview",
+    "concept",
+    "tutorial",
+    "how-to",
+    "reference",
+    "troubleshooting",
+    "release"
+  ],
+  "area": [
+    "product",
+    "getting-started",
+    "architecture",
+    "configuration",
+    "identity",
+    "onboarding",
+    "organizations",
+    "authorization",
+    "billing",
+    "entitlements",
+    "communications",
+    "extensibility",
+    "persistence",
+    "durable-processing",
+    "hosting",
+    "deployment",
+    "diagnostics",
+    "security",
+    "testing",
+    "performance",
+    "troubleshooting",
+    "compatibility",
+    "api",
+    "contributing"
+  ],
+  "version": [
+    "all",
+    "1.x",
+    "preview"
+  ],
+  "status": [
+    "stable",
+    "preview",
+    "deprecated",
+    "legacy",
+    "unsupported"
+  ],
+  "level": [
+    "beginner",
+    "intermediate",
+    "advanced"
+  ],
+  "audience": [
+    "developer",
+    "technical-lead",
+    "operator",
+    "contributor"
+  ],
+  "document_status": [
+    "draft",
+    "review",
+    "published",
+    "archived"
+  ],
+  "change_type": [
+    "feature",
+    "behavioral",
+    "breaking",
+    "deprecation",
+    "security",
+    "compatibility"
+  ]
+}
