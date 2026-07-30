@@ -1,27 +1,44 @@
 ---
 title: Onboarding
-description: Understand and customize first-organization onboarding, state transitions, transactional behavior, and completion.
+description: Discover onboarding state and create the authenticated account's first organization through the implemented Helium preview contract.
+uid: onboarding
 content_type: index
 area: onboarding
-version: all
-status: stable
+version: preview
+status: preview
 last_reviewed: 2026-07-30
+source:
+  - src/Trombetta.SaaS.Contracts/Identity/IOnboardingApplication.cs
+  - docs/engineering/ws-004-readiness.md
+  - docs/api/public-design.md
 ---
 
 # Onboarding
 
-Use these topics to move a newly registered account into a valid first organization and application context.
+Use onboarding after account verification and authentication to establish the account's first valid organization and Owner membership.
+
+> [!IMPORTANT]
+> The onboarding application contract and PostgreSQL-backed behavior are implemented and verified in the preview repository. The official generated UI and consumer package release are not yet published.
 
 ## Start here
 
-- [Onboarding state](state.md) — Begin with this topic to establish the primary model or workflow.
-- [First-organization creation](first-organization.md) — Continue with this topic for the next core decision or task.
+- [Onboarding state](state.md) — Decide whether verification or first-organization creation is required.
+- [Create the first organization](first-organization.md) — Complete the only organization-creation path exposed by the Initial MVP onboarding contract.
+- [Transactional onboarding](transactional-onboarding.md) — Understand the atomic state transition and rollback guarantees.
 
-## All topics
+## Common tasks
 
-- [Onboarding state](state.md)
-- [First-organization creation](first-organization.md)
-- [Transactional onboarding](transactional-onboarding.md)
-- [Onboarding completion](completion.md)
+- [Verify onboarding completion](completion.md)
 - [Customize the onboarding experience](customize-experience.md)
-- [Organizations and tenancy](../organizations/index.md)
+
+## Key concepts
+
+Onboarding is not a consumer-defined workflow engine. The public contract exposes state discovery and one atomic completion operation. It does not expose arbitrary step mutation, skip operations, additional-organization creation, membership administration, or framework persistence.
+
+## Troubleshooting
+
+Use operation errors and the returned correlation identifier. Do not inspect framework tables to infer partial completion; the supported transition is atomic.
+
+## Reference
+
+The public surface consists of `IOnboardingApplication`, `OnboardingState`, `CompleteFirstOrganizationCommand`, and `OnboardingCompletion` in `Trombetta.SaaS.Contracts.Identity`.
