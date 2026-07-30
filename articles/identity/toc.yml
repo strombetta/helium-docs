@@ -1,25 +1,25 @@
 items:
 - name: Identity and accounts
   href: index.md
-- name: Account registration
+- name: Register an account
   href: account-registration.md
-- name: Account profiles
+- name: Read and update an account profile
   href: account-profiles.md
-- name: Email verification
+- name: Verify an email address
   href: email-verification.md
-- name: Password sign-in
+- name: Sign in with a password
   href: password-sign-in.md
 - name: Authentication sessions
   href: authentication-sessions.md
-- name: Sign-out and session revocation
+- name: Sign out and revoke sessions
   href: sign-out-and-revocation.md
-- name: Password recovery and reset
+- name: Recover and reset a password
   href: password-recovery-and-reset.md
-- name: Password change
+- name: Change the current password
   href: password-change.md
 - name: Account lockout and abuse resistance
   href: lockout-and-abuse-resistance.md
-- name: Authenticated account context
+- name: Read the authenticated account context
   href: authenticated-account-context.md
 - name: Identity lifecycle events
   href: lifecycle-events.md
