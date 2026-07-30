@@ -32,6 +32,11 @@ jobs:
       - name: Restore fonts
         run: bash scripts/restore-fonts.sh
 
+      - name: Validate authoring infrastructure
+        run: |
+          python3 -m unittest discover -s scripts/tests -p 'test_*.py'
+          python3 scripts/validate_authoring.py
+
       - name: Build documentation
         run: dotnet tool run docfx docfx.json --warningsAsErrors
 
