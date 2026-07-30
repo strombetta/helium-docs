@@ -14,12 +14,13 @@ Use reference content when you need exact names, values, identifiers, defaults, 
 
 ## Start here
 
-- [Package reference](packages.md) — Begin with this topic to establish the primary model or workflow.
-- [Configuration reference](configuration.md) — Continue with this topic for the next core decision or task.
+- [Package reference](packages.md) — Begin with this topic to identify the framework artifacts used by an application.
+- [.NET API](../api/index.md) — Browse supported public contracts by functional area.
 
 ## All topics
 
 - [Package reference](packages.md)
+- [.NET API](../api/index.md)
 - [Configuration reference](configuration.md)
 - [Operation error codes](operation-error-codes.md)
 - [Authorization policy identifiers](authorization-policies.md)
@@ -29,5 +30,4 @@ Use reference content when you need exact names, values, identifiers, defaults, 
 - [Compatibility matrix](compatibility.md)
 - [Known limitations](known-limitations.md)
 - [Glossary](glossary.md)
-- [.NET API](../api/)
 - [Build with Helium](../articles/build/index.md)
