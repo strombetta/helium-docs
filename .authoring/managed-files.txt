@@ -1,6 +1,7 @@
 # Files subject to blocking authoring validation during staged migration.
 # Keep paths repository-relative, one per line, and add files only after review.
 
+api/index.md
 articles/authorization/index.md
 articles/billing/index.md
 articles/build/index.md
