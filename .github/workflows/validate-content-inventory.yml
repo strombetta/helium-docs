@@ -1,0 +1,43 @@
+name: Validate content inventory
+
+on:
+  pull_request:
+    paths:
+      - '**/*.md'
+      - '**/toc.yml'
+      - 'planning/**'
+      - 'scripts/generate_content_inventory.py'
+      - 'scripts/tests/test_generate_content_inventory.py'
+      - '.github/workflows/validate-content-inventory.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - '**/*.md'
+      - '**/toc.yml'
+      - 'planning/**'
+      - 'scripts/generate_content_inventory.py'
+      - 'scripts/tests/test_generate_content_inventory.py'
+      - '.github/workflows/validate-content-inventory.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: inventory-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Run inventory tests
+        run: python3 -m unittest scripts.tests.test_generate_content_inventory
+
+      - name: Check generated inventory
+        run: python3 scripts/generate_content_inventory.py --check
