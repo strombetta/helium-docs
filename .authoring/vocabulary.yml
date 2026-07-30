@@ -66,10 +66,9 @@
   ],
   "change_type": [
     "feature",
-    "behavioral",
+    "fix",
     "breaking",
     "deprecation",
-    "security",
-    "compatibility"
+    "security"
   ]
 }
