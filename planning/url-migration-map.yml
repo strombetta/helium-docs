@@ -1,0 +1,2083 @@
+{
+  "migration_map_version": 1,
+  "policy": {
+    "redirect_required_for_published_moves": true,
+    "redirect_status": [
+      "planned",
+      "implemented",
+      "verified"
+    ]
+  },
+  "moves": [
+    {
+      "current_path": "articles/authorization/index.md",
+      "old_url": "/articles/authorization/",
+      "proposed_path": "articles/build/authorization/index.md",
+      "new_url": "/articles/build/authorization/",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/authorization/consumer-policies.md",
+      "old_url": "/articles/authorization/consumer-policies.html",
+      "proposed_path": "articles/build/authorization/consumer-policies.md",
+      "new_url": "/articles/build/authorization/consumer-policies.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/authorization/evaluate.md",
+      "old_url": "/articles/authorization/evaluate.html",
+      "proposed_path": "articles/build/authorization/evaluate.md",
+      "new_url": "/articles/build/authorization/evaluate.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/authorization/framework-policies.md",
+      "old_url": "/articles/authorization/framework-policies.html",
+      "proposed_path": "articles/build/authorization/framework-policies.md",
+      "new_url": "/articles/build/authorization/framework-policies.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/authorization/model.md",
+      "old_url": "/articles/authorization/model.html",
+      "proposed_path": "articles/build/authorization/model.md",
+      "new_url": "/articles/build/authorization/model.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/authorization/protect-endpoints.md",
+      "old_url": "/articles/authorization/protect-endpoints.html",
+      "proposed_path": "articles/build/authorization/protect-endpoints.md",
+      "new_url": "/articles/build/authorization/protect-endpoints.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/authorization/protect-operations.md",
+      "old_url": "/articles/authorization/protect-operations.html",
+      "proposed_path": "articles/build/authorization/protect-operations.md",
+      "new_url": "/articles/build/authorization/protect-operations.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/authorization/roles-and-entitlements.md",
+      "old_url": "/articles/authorization/roles-and-entitlements.html",
+      "proposed_path": "articles/build/authorization/roles-and-entitlements.md",
+      "new_url": "/articles/build/authorization/roles-and-entitlements.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/authorization/troubleshooting.md",
+      "old_url": "/articles/authorization/troubleshooting.html",
+      "proposed_path": "articles/build/authorization/troubleshooting.md",
+      "new_url": "/articles/build/authorization/troubleshooting.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/billing/index.md",
+      "old_url": "/articles/billing/",
+      "proposed_path": "articles/build/billing/index.md",
+      "new_url": "/articles/build/billing/",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/billing/authorization.md",
+      "old_url": "/articles/billing/authorization.html",
+      "proposed_path": "articles/build/billing/authorization.md",
+      "new_url": "/articles/build/billing/authorization.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/billing/billing-intervals.md",
+      "old_url": "/articles/billing/billing-intervals.html",
+      "proposed_path": "articles/build/billing/billing-intervals.md",
+      "new_url": "/articles/build/billing/billing-intervals.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/billing/cancellation.md",
+      "old_url": "/articles/billing/cancellation.html",
+      "proposed_path": "articles/build/billing/cancellation.md",
+      "new_url": "/articles/build/billing/cancellation.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/billing/checkout.md",
+      "old_url": "/articles/billing/checkout.html",
+      "proposed_path": "articles/build/billing/checkout.md",
+      "new_url": "/articles/build/billing/checkout.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/billing/configure-stripe.md",
+      "old_url": "/articles/billing/configure-stripe.html",
+      "proposed_path": "articles/build/billing/configure-stripe.md",
+      "new_url": "/articles/build/billing/configure-stripe.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/billing/customer-portal.md",
+      "old_url": "/articles/billing/customer-portal.html",
+      "proposed_path": "articles/build/billing/customer-portal.md",
+      "new_url": "/articles/build/billing/customer-portal.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/billing/free-plans-and-trials.md",
+      "old_url": "/articles/billing/free-plans-and-trials.html",
+      "proposed_path": "articles/build/billing/free-plans-and-trials.md",
+      "new_url": "/articles/build/billing/free-plans-and-trials.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/billing/local-subscription-state.md",
+      "old_url": "/articles/billing/local-subscription-state.html",
+      "proposed_path": "articles/build/billing/local-subscription-state.md",
+      "new_url": "/articles/build/billing/local-subscription-state.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/billing/payment-failures.md",
+      "old_url": "/articles/billing/payment-failures.html",
+      "proposed_path": "articles/build/billing/payment-failures.md",
+      "new_url": "/articles/build/billing/payment-failures.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/billing/plan-catalog.md",
+      "old_url": "/articles/billing/plan-catalog.html",
+      "proposed_path": "articles/build/billing/plan-catalog.md",
+      "new_url": "/articles/build/billing/plan-catalog.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/billing/synchronization.md",
+      "old_url": "/articles/billing/synchronization.html",
+      "proposed_path": "articles/build/billing/synchronization.md",
+      "new_url": "/articles/build/billing/synchronization.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/billing/troubleshooting.md",
+      "old_url": "/articles/billing/troubleshooting.html",
+      "proposed_path": "articles/build/billing/troubleshooting.md",
+      "new_url": "/articles/build/billing/troubleshooting.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/billing/webhooks.md",
+      "old_url": "/articles/billing/webhooks.html",
+      "proposed_path": "articles/build/billing/webhooks.md",
+      "new_url": "/articles/build/billing/webhooks.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/communications/index.md",
+      "old_url": "/articles/communications/",
+      "proposed_path": "articles/build/communications/index.md",
+      "new_url": "/articles/build/communications/",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/communications/configure-provider.md",
+      "old_url": "/articles/communications/configure-provider.html",
+      "proposed_path": "articles/build/communications/configure-provider.md",
+      "new_url": "/articles/build/communications/configure-provider.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/communications/diagnostics.md",
+      "old_url": "/articles/communications/diagnostics.html",
+      "proposed_path": "articles/build/communications/diagnostics.md",
+      "new_url": "/articles/build/communications/diagnostics.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/communications/durable-delivery.md",
+      "old_url": "/articles/communications/durable-delivery.html",
+      "proposed_path": "articles/build/communications/durable-delivery.md",
+      "new_url": "/articles/build/communications/durable-delivery.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/communications/implement-provider.md",
+      "old_url": "/articles/communications/implement-provider.html",
+      "proposed_path": "articles/build/communications/implement-provider.md",
+      "new_url": "/articles/build/communications/implement-provider.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/communications/message-types-and-templates.md",
+      "old_url": "/articles/communications/message-types-and-templates.html",
+      "proposed_path": "articles/build/communications/message-types-and-templates.md",
+      "new_url": "/articles/build/communications/message-types-and-templates.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/communications/retries-and-failures.md",
+      "old_url": "/articles/communications/retries-and-failures.html",
+      "proposed_path": "articles/build/communications/retries-and-failures.md",
+      "new_url": "/articles/build/communications/retries-and-failures.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/communications/sender-and-branding.md",
+      "old_url": "/articles/communications/sender-and-branding.html",
+      "proposed_path": "articles/build/communications/sender-and-branding.md",
+      "new_url": "/articles/build/communications/sender-and-branding.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/communications/testing.md",
+      "old_url": "/articles/communications/testing.html",
+      "proposed_path": "articles/build/communications/testing.md",
+      "new_url": "/articles/build/communications/testing.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/communications/workflows.md",
+      "old_url": "/articles/communications/workflows.html",
+      "proposed_path": "articles/build/communications/workflows.md",
+      "new_url": "/articles/build/communications/workflows.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/configuration/index.md",
+      "old_url": "/articles/configuration/",
+      "proposed_path": "articles/build/configuration/index.md",
+      "new_url": "/articles/build/configuration/",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/configuration/authentication-and-sessions.md",
+      "old_url": "/articles/configuration/authentication-and-sessions.html",
+      "proposed_path": "articles/build/configuration/authentication-and-sessions.md",
+      "new_url": "/articles/build/configuration/authentication-and-sessions.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/configuration/branding-and-navigation.md",
+      "old_url": "/articles/configuration/branding-and-navigation.html",
+      "proposed_path": "articles/build/configuration/branding-and-navigation.md",
+      "new_url": "/articles/build/configuration/branding-and-navigation.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/configuration/configuration-model.md",
+      "old_url": "/articles/configuration/configuration-model.html",
+      "proposed_path": "articles/build/configuration/configuration-model.md",
+      "new_url": "/articles/build/configuration/configuration-model.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/configuration/environment-specific-configuration.md",
+      "old_url": "/articles/configuration/environment-specific-configuration.html",
+      "proposed_path": "articles/build/configuration/environment-specific-configuration.md",
+      "new_url": "/articles/build/configuration/environment-specific-configuration.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/configuration/postgresql.md",
+      "old_url": "/articles/configuration/postgresql.html",
+      "proposed_path": "articles/build/configuration/postgresql.md",
+      "new_url": "/articles/build/configuration/postgresql.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/configuration/reference-ui.md",
+      "old_url": "/articles/configuration/reference-ui.html",
+      "proposed_path": "articles/build/configuration/reference-ui.md",
+      "new_url": "/articles/build/configuration/reference-ui.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/configuration/register-services.md",
+      "old_url": "/articles/configuration/register-services.html",
+      "proposed_path": "articles/build/configuration/register-services.md",
+      "new_url": "/articles/build/configuration/register-services.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/configuration/secrets-and-credentials.md",
+      "old_url": "/articles/configuration/secrets-and-credentials.html",
+      "proposed_path": "articles/build/configuration/secrets-and-credentials.md",
+      "new_url": "/articles/build/configuration/secrets-and-credentials.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/configuration/startup-validation.md",
+      "old_url": "/articles/configuration/startup-validation.html",
+      "proposed_path": "articles/build/configuration/startup-validation.md",
+      "new_url": "/articles/build/configuration/startup-validation.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/configuration/stripe.md",
+      "old_url": "/articles/configuration/stripe.html",
+      "proposed_path": "articles/build/configuration/stripe.md",
+      "new_url": "/articles/build/configuration/stripe.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/configuration/transactional-email.md",
+      "old_url": "/articles/configuration/transactional-email.html",
+      "proposed_path": "articles/build/configuration/transactional-email.md",
+      "new_url": "/articles/build/configuration/transactional-email.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/contributing/index.md",
+      "old_url": "/articles/contributing/",
+      "proposed_path": "articles/contribute/index.md",
+      "new_url": "/articles/contribute/",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Contribute"
+    },
+    {
+      "current_path": "articles/contributing/api-generation.md",
+      "old_url": "/articles/contributing/api-generation.html",
+      "proposed_path": "articles/contribute/documentation/api-generation.md",
+      "new_url": "/articles/contribute/documentation/api-generation.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Contribute"
+    },
+    {
+      "current_path": "articles/contributing/architecture-decisions.md",
+      "old_url": "/articles/contributing/architecture-decisions.html",
+      "proposed_path": "articles/contribute/framework/architecture-decisions.md",
+      "new_url": "/articles/contribute/framework/architecture-decisions.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Contribute"
+    },
+    {
+      "current_path": "articles/contributing/authoring-conventions.md",
+      "old_url": "/articles/contributing/authoring-conventions.html",
+      "proposed_path": "articles/contribute/documentation/authoring-conventions.md",
+      "new_url": "/articles/contribute/documentation/authoring-conventions.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Contribute"
+    },
+    {
+      "current_path": "articles/contributing/build-from-source.md",
+      "old_url": "/articles/contributing/build-from-source.html",
+      "proposed_path": "articles/contribute/framework/build-from-source.md",
+      "new_url": "/articles/contribute/framework/build-from-source.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Contribute"
+    },
+    {
+      "current_path": "articles/contributing/build-locally.md",
+      "old_url": "/articles/contributing/build-locally.html",
+      "proposed_path": "articles/contribute/documentation/build-locally.md",
+      "new_url": "/articles/contribute/documentation/build-locally.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Contribute"
+    },
+    {
+      "current_path": "articles/contributing/coding-and-namespace-conventions.md",
+      "old_url": "/articles/contributing/coding-and-namespace-conventions.html",
+      "proposed_path": "articles/contribute/framework/coding-and-namespace-conventions.md",
+      "new_url": "/articles/contribute/framework/coding-and-namespace-conventions.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Contribute"
+    },
+    {
+      "current_path": "articles/contributing/documentation-architecture.md",
+      "old_url": "/articles/contributing/documentation-architecture.html",
+      "proposed_path": "articles/contribute/documentation/documentation-architecture.md",
+      "new_url": "/articles/contribute/documentation/documentation-architecture.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Contribute"
+    },
+    {
+      "current_path": "articles/contributing/issues-and-pull-requests.md",
+      "old_url": "/articles/contributing/issues-and-pull-requests.html",
+      "proposed_path": "articles/contribute/documentation/issues-and-pull-requests.md",
+      "new_url": "/articles/contribute/documentation/issues-and-pull-requests.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Contribute"
+    },
+    {
+      "current_path": "articles/contributing/link-validation.md",
+      "old_url": "/articles/contributing/link-validation.html",
+      "proposed_path": "articles/contribute/documentation/link-validation.md",
+      "new_url": "/articles/contribute/documentation/link-validation.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Contribute"
+    },
+    {
+      "current_path": "articles/contributing/metadata-reference.md",
+      "old_url": "/articles/contributing/metadata-reference.html",
+      "proposed_path": "articles/contribute/documentation/metadata-reference.md",
+      "new_url": "/articles/contribute/documentation/metadata-reference.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Contribute"
+    },
+    {
+      "current_path": "articles/contributing/packaging-and-versioning.md",
+      "old_url": "/articles/contributing/packaging-and-versioning.html",
+      "proposed_path": "articles/contribute/framework/packaging-and-versioning.md",
+      "new_url": "/articles/contribute/framework/packaging-and-versioning.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Contribute"
+    },
+    {
+      "current_path": "articles/contributing/preview-environments.md",
+      "old_url": "/articles/contributing/preview-environments.html",
+      "proposed_path": "articles/contribute/documentation/preview-environments.md",
+      "new_url": "/articles/contribute/documentation/preview-environments.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Contribute"
+    },
+    {
+      "current_path": "articles/contributing/public-api-compatibility.md",
+      "old_url": "/articles/contributing/public-api-compatibility.html",
+      "proposed_path": "articles/contribute/framework/public-api-compatibility.md",
+      "new_url": "/articles/contribute/framework/public-api-compatibility.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Contribute"
+    },
+    {
+      "current_path": "articles/contributing/publication-process.md",
+      "old_url": "/articles/contributing/publication-process.html",
+      "proposed_path": "articles/contribute/documentation/publication-process.md",
+      "new_url": "/articles/contribute/documentation/publication-process.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Contribute"
+    },
+    {
+      "current_path": "articles/contributing/release-process.md",
+      "old_url": "/articles/contributing/release-process.html",
+      "proposed_path": "articles/contribute/framework/release-process.md",
+      "new_url": "/articles/contribute/framework/release-process.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Contribute"
+    },
+    {
+      "current_path": "articles/contributing/repository-structure.md",
+      "old_url": "/articles/contributing/repository-structure.html",
+      "proposed_path": "articles/contribute/documentation/repository-structure.md",
+      "new_url": "/articles/contribute/documentation/repository-structure.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Contribute"
+    },
+    {
+      "current_path": "articles/contributing/repository-validation.md",
+      "old_url": "/articles/contributing/repository-validation.html",
+      "proposed_path": "articles/contribute/framework/repository-validation.md",
+      "new_url": "/articles/contribute/framework/repository-validation.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Contribute"
+    },
+    {
+      "current_path": "articles/contributing/testing-policy.md",
+      "old_url": "/articles/contributing/testing-policy.html",
+      "proposed_path": "articles/contribute/framework/testing-policy.md",
+      "new_url": "/articles/contribute/framework/testing-policy.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Contribute"
+    },
+    {
+      "current_path": "articles/contributing/toc-conventions.md",
+      "old_url": "/articles/contributing/toc-conventions.html",
+      "proposed_path": "articles/contribute/documentation/toc-conventions.md",
+      "new_url": "/articles/contribute/documentation/toc-conventions.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Contribute"
+    },
+    {
+      "current_path": "articles/deployment/index.md",
+      "old_url": "/articles/deployment/",
+      "proposed_path": "articles/operate/deployment/index.md",
+      "new_url": "/articles/operate/deployment/",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/deployment/build-container.md",
+      "old_url": "/articles/deployment/build-container.html",
+      "proposed_path": "articles/operate/deployment/build-container.md",
+      "new_url": "/articles/operate/deployment/build-container.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/deployment/external-postgresql.md",
+      "old_url": "/articles/deployment/external-postgresql.html",
+      "proposed_path": "articles/operate/deployment/external-postgresql.md",
+      "new_url": "/articles/operate/deployment/external-postgresql.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/deployment/health-verification.md",
+      "old_url": "/articles/deployment/health-verification.html",
+      "proposed_path": "articles/operate/deployment/health-verification.md",
+      "new_url": "/articles/operate/deployment/health-verification.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/deployment/linux-host.md",
+      "old_url": "/articles/deployment/linux-host.html",
+      "proposed_path": "articles/operate/deployment/linux-host.md",
+      "new_url": "/articles/operate/deployment/linux-host.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/deployment/production-migrations.md",
+      "old_url": "/articles/deployment/production-migrations.html",
+      "proposed_path": "articles/operate/deployment/production-migrations.md",
+      "new_url": "/articles/operate/deployment/production-migrations.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/deployment/production-secrets.md",
+      "old_url": "/articles/deployment/production-secrets.html",
+      "proposed_path": "articles/operate/deployment/production-secrets.md",
+      "new_url": "/articles/operate/deployment/production-secrets.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/deployment/reverse-proxy-and-tls.md",
+      "old_url": "/articles/deployment/reverse-proxy-and-tls.html",
+      "proposed_path": "articles/operate/deployment/reverse-proxy-and-tls.md",
+      "new_url": "/articles/operate/deployment/reverse-proxy-and-tls.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/deployment/rollback.md",
+      "old_url": "/articles/deployment/rollback.html",
+      "proposed_path": "articles/operate/deployment/rollback.md",
+      "new_url": "/articles/operate/deployment/rollback.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/deployment/stripe-webhooks.md",
+      "old_url": "/articles/deployment/stripe-webhooks.html",
+      "proposed_path": "articles/operate/deployment/stripe-webhooks.md",
+      "new_url": "/articles/operate/deployment/stripe-webhooks.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/deployment/supported-topology.md",
+      "old_url": "/articles/deployment/supported-topology.html",
+      "proposed_path": "articles/operate/deployment/supported-topology.md",
+      "new_url": "/articles/operate/deployment/supported-topology.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/deployment/transactional-email.md",
+      "old_url": "/articles/deployment/transactional-email.html",
+      "proposed_path": "articles/operate/deployment/transactional-email.md",
+      "new_url": "/articles/operate/deployment/transactional-email.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/deployment/upgrade.md",
+      "old_url": "/articles/deployment/upgrade.html",
+      "proposed_path": "articles/operate/deployment/upgrade.md",
+      "new_url": "/articles/operate/deployment/upgrade.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/diagnostics/index.md",
+      "old_url": "/articles/diagnostics/",
+      "proposed_path": "articles/operate/diagnostics/index.md",
+      "new_url": "/articles/operate/diagnostics/",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/diagnostics/configuration.md",
+      "old_url": "/articles/diagnostics/configuration.html",
+      "proposed_path": "articles/operate/diagnostics/configuration.md",
+      "new_url": "/articles/operate/diagnostics/configuration.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/diagnostics/correlation-identifiers.md",
+      "old_url": "/articles/diagnostics/correlation-identifiers.html",
+      "proposed_path": "articles/operate/diagnostics/correlation-identifiers.md",
+      "new_url": "/articles/operate/diagnostics/correlation-identifiers.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/diagnostics/durable-workers.md",
+      "old_url": "/articles/diagnostics/durable-workers.html",
+      "proposed_path": "articles/operate/diagnostics/durable-workers.md",
+      "new_url": "/articles/operate/diagnostics/durable-workers.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/diagnostics/identity.md",
+      "old_url": "/articles/diagnostics/identity.html",
+      "proposed_path": "articles/operate/diagnostics/identity.md",
+      "new_url": "/articles/operate/diagnostics/identity.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/diagnostics/liveness-and-readiness.md",
+      "old_url": "/articles/diagnostics/liveness-and-readiness.html",
+      "proposed_path": "articles/operate/diagnostics/liveness-and-readiness.md",
+      "new_url": "/articles/operate/diagnostics/liveness-and-readiness.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/diagnostics/logging-categories.md",
+      "old_url": "/articles/diagnostics/logging-categories.html",
+      "proposed_path": "articles/operate/diagnostics/logging-categories.md",
+      "new_url": "/articles/operate/diagnostics/logging-categories.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/diagnostics/organizations-and-authorization.md",
+      "old_url": "/articles/diagnostics/organizations-and-authorization.html",
+      "proposed_path": "articles/operate/diagnostics/organizations-and-authorization.md",
+      "new_url": "/articles/operate/diagnostics/organizations-and-authorization.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/diagnostics/sensitive-data.md",
+      "old_url": "/articles/diagnostics/sensitive-data.html",
+      "proposed_path": "articles/operate/diagnostics/sensitive-data.md",
+      "new_url": "/articles/operate/diagnostics/sensitive-data.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/diagnostics/stripe-webhooks.md",
+      "old_url": "/articles/diagnostics/stripe-webhooks.html",
+      "proposed_path": "articles/operate/diagnostics/stripe-webhooks.md",
+      "new_url": "/articles/operate/diagnostics/stripe-webhooks.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/diagnostics/transactional-email.md",
+      "old_url": "/articles/diagnostics/transactional-email.html",
+      "proposed_path": "articles/operate/diagnostics/transactional-email.md",
+      "new_url": "/articles/operate/diagnostics/transactional-email.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/durable-processing/index.md",
+      "old_url": "/articles/durable-processing/",
+      "proposed_path": "articles/operate/durable-processing/index.md",
+      "new_url": "/articles/operate/durable-processing/",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/durable-processing/acquisition-and-leasing.md",
+      "old_url": "/articles/durable-processing/acquisition-and-leasing.html",
+      "proposed_path": "articles/operate/durable-processing/acquisition-and-leasing.md",
+      "new_url": "/articles/operate/durable-processing/acquisition-and-leasing.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/durable-processing/atomic-work.md",
+      "old_url": "/articles/durable-processing/atomic-work.html",
+      "proposed_path": "articles/operate/durable-processing/atomic-work.md",
+      "new_url": "/articles/operate/durable-processing/atomic-work.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/durable-processing/deduplication.md",
+      "old_url": "/articles/durable-processing/deduplication.html",
+      "proposed_path": "articles/operate/durable-processing/deduplication.md",
+      "new_url": "/articles/operate/durable-processing/deduplication.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/durable-processing/failed-work.md",
+      "old_url": "/articles/durable-processing/failed-work.html",
+      "proposed_path": "articles/operate/durable-processing/failed-work.md",
+      "new_url": "/articles/operate/durable-processing/failed-work.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/durable-processing/graceful-shutdown.md",
+      "old_url": "/articles/durable-processing/graceful-shutdown.html",
+      "proposed_path": "articles/operate/durable-processing/graceful-shutdown.md",
+      "new_url": "/articles/operate/durable-processing/graceful-shutdown.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/durable-processing/inbox-and-outbox.md",
+      "old_url": "/articles/durable-processing/inbox-and-outbox.html",
+      "proposed_path": "articles/operate/durable-processing/inbox-and-outbox.md",
+      "new_url": "/articles/operate/durable-processing/inbox-and-outbox.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/durable-processing/lease-renewal.md",
+      "old_url": "/articles/durable-processing/lease-renewal.html",
+      "proposed_path": "articles/operate/durable-processing/lease-renewal.md",
+      "new_url": "/articles/operate/durable-processing/lease-renewal.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/durable-processing/recovery.md",
+      "old_url": "/articles/durable-processing/recovery.html",
+      "proposed_path": "articles/operate/durable-processing/recovery.md",
+      "new_url": "/articles/operate/durable-processing/recovery.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/durable-processing/retry-policies.md",
+      "old_url": "/articles/durable-processing/retry-policies.html",
+      "proposed_path": "articles/operate/durable-processing/retry-policies.md",
+      "new_url": "/articles/operate/durable-processing/retry-policies.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/durable-processing/work-categories.md",
+      "old_url": "/articles/durable-processing/work-categories.html",
+      "proposed_path": "articles/operate/durable-processing/work-categories.md",
+      "new_url": "/articles/operate/durable-processing/work-categories.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/durable-processing/worker-hosting.md",
+      "old_url": "/articles/durable-processing/worker-hosting.html",
+      "proposed_path": "articles/operate/durable-processing/worker-hosting.md",
+      "new_url": "/articles/operate/durable-processing/worker-hosting.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/entitlements/index.md",
+      "old_url": "/articles/entitlements/",
+      "proposed_path": "articles/build/entitlements/index.md",
+      "new_url": "/articles/build/entitlements/",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/entitlements/authorization.md",
+      "old_url": "/articles/entitlements/authorization.html",
+      "proposed_path": "articles/build/entitlements/authorization.md",
+      "new_url": "/articles/build/entitlements/authorization.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/entitlements/configure.md",
+      "old_url": "/articles/entitlements/configure.html",
+      "proposed_path": "articles/build/entitlements/configure.md",
+      "new_url": "/articles/build/entitlements/configure.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/entitlements/denial-reasons.md",
+      "old_url": "/articles/entitlements/denial-reasons.html",
+      "proposed_path": "articles/build/entitlements/denial-reasons.md",
+      "new_url": "/articles/build/entitlements/denial-reasons.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/entitlements/effective-snapshots.md",
+      "old_url": "/articles/entitlements/effective-snapshots.html",
+      "proposed_path": "articles/build/entitlements/effective-snapshots.md",
+      "new_url": "/articles/build/entitlements/effective-snapshots.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/entitlements/evaluate.md",
+      "old_url": "/articles/entitlements/evaluate.html",
+      "proposed_path": "articles/build/entitlements/evaluate.md",
+      "new_url": "/articles/build/entitlements/evaluate.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/entitlements/plans-and-keys.md",
+      "old_url": "/articles/entitlements/plans-and-keys.html",
+      "proposed_path": "articles/build/entitlements/plans-and-keys.md",
+      "new_url": "/articles/build/entitlements/plans-and-keys.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/entitlements/testing.md",
+      "old_url": "/articles/entitlements/testing.html",
+      "proposed_path": "articles/build/entitlements/testing.md",
+      "new_url": "/articles/build/entitlements/testing.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/extensibility/index.md",
+      "old_url": "/articles/extensibility/",
+      "proposed_path": "articles/extend/index.md",
+      "new_url": "/articles/extend/",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Extend and customize"
+    },
+    {
+      "current_path": "articles/extensibility/branding-and-navigation.md",
+      "old_url": "/articles/extensibility/branding-and-navigation.html",
+      "proposed_path": "articles/extend/branding-and-navigation.md",
+      "new_url": "/articles/extend/branding-and-navigation.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Extend and customize"
+    },
+    {
+      "current_path": "articles/extensibility/compatibility.md",
+      "old_url": "/articles/extensibility/compatibility.html",
+      "proposed_path": "articles/extend/compatibility.md",
+      "new_url": "/articles/extend/compatibility.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Extend and customize"
+    },
+    {
+      "current_path": "articles/extensibility/consumer-authorization-policies.md",
+      "old_url": "/articles/extensibility/consumer-authorization-policies.html",
+      "proposed_path": "articles/extend/consumer-authorization-policies.md",
+      "new_url": "/articles/extend/consumer-authorization-policies.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Extend and customize"
+    },
+    {
+      "current_path": "articles/extensibility/extension-model.md",
+      "old_url": "/articles/extensibility/extension-model.html",
+      "proposed_path": "articles/extend/extension-model.md",
+      "new_url": "/articles/extend/extension-model.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Extend and customize"
+    },
+    {
+      "current_path": "articles/extensibility/idempotent-processing.md",
+      "old_url": "/articles/extensibility/idempotent-processing.html",
+      "proposed_path": "articles/extend/idempotent-processing.md",
+      "new_url": "/articles/extend/idempotent-processing.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Extend and customize"
+    },
+    {
+      "current_path": "articles/extensibility/lifecycle-event-catalog.md",
+      "old_url": "/articles/extensibility/lifecycle-event-catalog.html",
+      "proposed_path": "articles/extend/lifecycle-event-catalog.md",
+      "new_url": "/articles/extend/lifecycle-event-catalog.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Extend and customize"
+    },
+    {
+      "current_path": "articles/extensibility/lifecycle-handlers.md",
+      "old_url": "/articles/extensibility/lifecycle-handlers.html",
+      "proposed_path": "articles/extend/lifecycle-handlers.md",
+      "new_url": "/articles/extend/lifecycle-handlers.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Extend and customize"
+    },
+    {
+      "current_path": "articles/extensibility/public-contracts.md",
+      "old_url": "/articles/extensibility/public-contracts.html",
+      "proposed_path": "articles/extend/public-contracts.md",
+      "new_url": "/articles/extend/public-contracts.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Extend and customize"
+    },
+    {
+      "current_path": "articles/extensibility/register-consumer-services.md",
+      "old_url": "/articles/extensibility/register-consumer-services.html",
+      "proposed_path": "articles/extend/register-consumer-services.md",
+      "new_url": "/articles/extend/register-consumer-services.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Extend and customize"
+    },
+    {
+      "current_path": "articles/extensibility/replace-email-provider.md",
+      "old_url": "/articles/extensibility/replace-email-provider.html",
+      "proposed_path": "articles/extend/replace-email-provider.md",
+      "new_url": "/articles/extend/replace-email-provider.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Extend and customize"
+    },
+    {
+      "current_path": "articles/extensibility/replace-presentation.md",
+      "old_url": "/articles/extensibility/replace-presentation.html",
+      "proposed_path": "articles/extend/replace-presentation.md",
+      "new_url": "/articles/extend/replace-presentation.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Extend and customize"
+    },
+    {
+      "current_path": "articles/extensibility/supported-customizations.md",
+      "old_url": "/articles/extensibility/supported-customizations.html",
+      "proposed_path": "articles/extend/supported-customizations.md",
+      "new_url": "/articles/extend/supported-customizations.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Extend and customize"
+    },
+    {
+      "current_path": "articles/hosting/index.md",
+      "old_url": "/articles/hosting/",
+      "proposed_path": "articles/operate/hosting/index.md",
+      "new_url": "/articles/operate/hosting/",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/hosting/account-context-middleware.md",
+      "old_url": "/articles/hosting/account-context-middleware.html",
+      "proposed_path": "articles/operate/hosting/account-context-middleware.md",
+      "new_url": "/articles/operate/hosting/account-context-middleware.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/hosting/authentication-integration.md",
+      "old_url": "/articles/hosting/authentication-integration.html",
+      "proposed_path": "articles/operate/hosting/authentication-integration.md",
+      "new_url": "/articles/operate/hosting/authentication-integration.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/hosting/health-endpoints.md",
+      "old_url": "/articles/hosting/health-endpoints.html",
+      "proposed_path": "articles/operate/hosting/health-endpoints.md",
+      "new_url": "/articles/operate/hosting/health-endpoints.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/hosting/map-endpoints.md",
+      "old_url": "/articles/hosting/map-endpoints.html",
+      "proposed_path": "articles/operate/hosting/map-endpoints.md",
+      "new_url": "/articles/operate/hosting/map-endpoints.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/hosting/middleware-ordering.md",
+      "old_url": "/articles/hosting/middleware-ordering.html",
+      "proposed_path": "articles/operate/hosting/middleware-ordering.md",
+      "new_url": "/articles/operate/hosting/middleware-ordering.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/hosting/organization-context-middleware.md",
+      "old_url": "/articles/hosting/organization-context-middleware.html",
+      "proposed_path": "articles/operate/hosting/organization-context-middleware.md",
+      "new_url": "/articles/operate/hosting/organization-context-middleware.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/hosting/reference-razor-presentation.md",
+      "old_url": "/articles/hosting/reference-razor-presentation.html",
+      "proposed_path": "articles/operate/hosting/reference-razor-presentation.md",
+      "new_url": "/articles/operate/hosting/reference-razor-presentation.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/hosting/replace-presentation.md",
+      "old_url": "/articles/hosting/replace-presentation.html",
+      "proposed_path": "articles/operate/hosting/replace-presentation.md",
+      "new_url": "/articles/operate/hosting/replace-presentation.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/hosting/service-registration.md",
+      "old_url": "/articles/hosting/service-registration.html",
+      "proposed_path": "articles/operate/hosting/service-registration.md",
+      "new_url": "/articles/operate/hosting/service-registration.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/identity/index.md",
+      "old_url": "/articles/identity/",
+      "proposed_path": "articles/build/identity/index.md",
+      "new_url": "/articles/build/identity/",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/identity/account-profiles.md",
+      "old_url": "/articles/identity/account-profiles.html",
+      "proposed_path": "articles/build/identity/account-profiles.md",
+      "new_url": "/articles/build/identity/account-profiles.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/identity/account-registration.md",
+      "old_url": "/articles/identity/account-registration.html",
+      "proposed_path": "articles/build/identity/account-registration.md",
+      "new_url": "/articles/build/identity/account-registration.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/identity/authenticated-account-context.md",
+      "old_url": "/articles/identity/authenticated-account-context.html",
+      "proposed_path": "articles/build/identity/authenticated-account-context.md",
+      "new_url": "/articles/build/identity/authenticated-account-context.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/identity/authentication-sessions.md",
+      "old_url": "/articles/identity/authentication-sessions.html",
+      "proposed_path": "articles/build/identity/authentication-sessions.md",
+      "new_url": "/articles/build/identity/authentication-sessions.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/identity/email-verification.md",
+      "old_url": "/articles/identity/email-verification.html",
+      "proposed_path": "articles/build/identity/email-verification.md",
+      "new_url": "/articles/build/identity/email-verification.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/identity/lifecycle-events.md",
+      "old_url": "/articles/identity/lifecycle-events.html",
+      "proposed_path": "articles/build/identity/lifecycle-events.md",
+      "new_url": "/articles/build/identity/lifecycle-events.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/identity/lockout-and-abuse-resistance.md",
+      "old_url": "/articles/identity/lockout-and-abuse-resistance.html",
+      "proposed_path": "articles/build/identity/lockout-and-abuse-resistance.md",
+      "new_url": "/articles/build/identity/lockout-and-abuse-resistance.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/identity/password-change.md",
+      "old_url": "/articles/identity/password-change.html",
+      "proposed_path": "articles/build/identity/password-change.md",
+      "new_url": "/articles/build/identity/password-change.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/identity/password-recovery-and-reset.md",
+      "old_url": "/articles/identity/password-recovery-and-reset.html",
+      "proposed_path": "articles/build/identity/password-recovery-and-reset.md",
+      "new_url": "/articles/build/identity/password-recovery-and-reset.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/identity/password-sign-in.md",
+      "old_url": "/articles/identity/password-sign-in.html",
+      "proposed_path": "articles/build/identity/password-sign-in.md",
+      "new_url": "/articles/build/identity/password-sign-in.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/identity/security-considerations.md",
+      "old_url": "/articles/identity/security-considerations.html",
+      "proposed_path": "articles/build/identity/security-considerations.md",
+      "new_url": "/articles/build/identity/security-considerations.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/identity/sign-out-and-revocation.md",
+      "old_url": "/articles/identity/sign-out-and-revocation.html",
+      "proposed_path": "articles/build/identity/sign-out-and-revocation.md",
+      "new_url": "/articles/build/identity/sign-out-and-revocation.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/onboarding/index.md",
+      "old_url": "/articles/onboarding/",
+      "proposed_path": "articles/build/onboarding/index.md",
+      "new_url": "/articles/build/onboarding/",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/onboarding/completion.md",
+      "old_url": "/articles/onboarding/completion.html",
+      "proposed_path": "articles/build/onboarding/completion.md",
+      "new_url": "/articles/build/onboarding/completion.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/onboarding/customize-experience.md",
+      "old_url": "/articles/onboarding/customize-experience.html",
+      "proposed_path": "articles/build/onboarding/customize-experience.md",
+      "new_url": "/articles/build/onboarding/customize-experience.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/onboarding/first-organization.md",
+      "old_url": "/articles/onboarding/first-organization.html",
+      "proposed_path": "articles/build/onboarding/first-organization.md",
+      "new_url": "/articles/build/onboarding/first-organization.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/onboarding/state.md",
+      "old_url": "/articles/onboarding/state.html",
+      "proposed_path": "articles/build/onboarding/state.md",
+      "new_url": "/articles/build/onboarding/state.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/onboarding/transactional-onboarding.md",
+      "old_url": "/articles/onboarding/transactional-onboarding.html",
+      "proposed_path": "articles/build/onboarding/transactional-onboarding.md",
+      "new_url": "/articles/build/onboarding/transactional-onboarding.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/organizations/index.md",
+      "old_url": "/articles/organizations/",
+      "proposed_path": "articles/build/organizations/index.md",
+      "new_url": "/articles/build/organizations/",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/organizations/active-organization.md",
+      "old_url": "/articles/organizations/active-organization.html",
+      "proposed_path": "articles/build/organizations/active-organization.md",
+      "new_url": "/articles/build/organizations/active-organization.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/organizations/create-and-retrieve.md",
+      "old_url": "/articles/organizations/create-and-retrieve.html",
+      "proposed_path": "articles/build/organizations/create-and-retrieve.md",
+      "new_url": "/articles/build/organizations/create-and-retrieve.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/organizations/invitations.md",
+      "old_url": "/articles/organizations/invitations.html",
+      "proposed_path": "articles/build/organizations/invitations.md",
+      "new_url": "/articles/build/organizations/invitations.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/organizations/isolation.md",
+      "old_url": "/articles/organizations/isolation.html",
+      "proposed_path": "articles/build/organizations/isolation.md",
+      "new_url": "/articles/build/organizations/isolation.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/organizations/lifecycle-events.md",
+      "old_url": "/articles/organizations/lifecycle-events.html",
+      "proposed_path": "articles/build/organizations/lifecycle-events.md",
+      "new_url": "/articles/build/organizations/lifecycle-events.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/organizations/memberships.md",
+      "old_url": "/articles/organizations/memberships.html",
+      "proposed_path": "articles/build/organizations/memberships.md",
+      "new_url": "/articles/build/organizations/memberships.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/organizations/organization-model.md",
+      "old_url": "/articles/organizations/organization-model.html",
+      "proposed_path": "articles/build/organizations/organization-model.md",
+      "new_url": "/articles/build/organizations/organization-model.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/organizations/ownership-transfer.md",
+      "old_url": "/articles/organizations/ownership-transfer.html",
+      "proposed_path": "articles/build/organizations/ownership-transfer.md",
+      "new_url": "/articles/build/organizations/ownership-transfer.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/organizations/roles.md",
+      "old_url": "/articles/organizations/roles.html",
+      "proposed_path": "articles/build/organizations/roles.md",
+      "new_url": "/articles/build/organizations/roles.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/organizations/settings.md",
+      "old_url": "/articles/organizations/settings.html",
+      "proposed_path": "articles/build/organizations/settings.md",
+      "new_url": "/articles/build/organizations/settings.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/organizations/validated-context.md",
+      "old_url": "/articles/organizations/validated-context.html",
+      "proposed_path": "articles/build/organizations/validated-context.md",
+      "new_url": "/articles/build/organizations/validated-context.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/performance/index.md",
+      "old_url": "/articles/performance/",
+      "proposed_path": "articles/operate/performance/index.md",
+      "new_url": "/articles/operate/performance/",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/performance/background-processing-capacity.md",
+      "old_url": "/articles/performance/background-processing-capacity.html",
+      "proposed_path": "articles/operate/performance/background-processing-capacity.md",
+      "new_url": "/articles/operate/performance/background-processing-capacity.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/performance/external-provider-latency.md",
+      "old_url": "/articles/performance/external-provider-latency.html",
+      "proposed_path": "articles/operate/performance/external-provider-latency.md",
+      "new_url": "/articles/operate/performance/external-provider-latency.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/performance/postgresql-connection-budgeting.md",
+      "old_url": "/articles/performance/postgresql-connection-budgeting.html",
+      "proposed_path": "articles/operate/performance/postgresql-connection-budgeting.md",
+      "new_url": "/articles/operate/performance/postgresql-connection-budgeting.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/performance/queries-and-indexes.md",
+      "old_url": "/articles/performance/queries-and-indexes.html",
+      "proposed_path": "articles/operate/performance/queries-and-indexes.md",
+      "new_url": "/articles/operate/performance/queries-and-indexes.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/performance/scaling-roadmap.md",
+      "old_url": "/articles/performance/scaling-roadmap.html",
+      "proposed_path": "articles/operate/performance/scaling-roadmap.md",
+      "new_url": "/articles/operate/performance/scaling-roadmap.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/performance/supported-limits.md",
+      "old_url": "/articles/performance/supported-limits.html",
+      "proposed_path": "articles/operate/performance/supported-limits.md",
+      "new_url": "/articles/operate/performance/supported-limits.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/performance/worker-concurrency.md",
+      "old_url": "/articles/performance/worker-concurrency.html",
+      "proposed_path": "articles/operate/performance/worker-concurrency.md",
+      "new_url": "/articles/operate/performance/worker-concurrency.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/persistence/index.md",
+      "old_url": "/articles/persistence/",
+      "proposed_path": "articles/operate/persistence/index.md",
+      "new_url": "/articles/operate/persistence/",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/persistence/apply-migrations.md",
+      "old_url": "/articles/persistence/apply-migrations.html",
+      "proposed_path": "articles/operate/persistence/apply-migrations.md",
+      "new_url": "/articles/operate/persistence/apply-migrations.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/persistence/backup-and-recovery.md",
+      "old_url": "/articles/persistence/backup-and-recovery.html",
+      "proposed_path": "articles/operate/persistence/backup-and-recovery.md",
+      "new_url": "/articles/operate/persistence/backup-and-recovery.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/persistence/compatibility-checks.md",
+      "old_url": "/articles/persistence/compatibility-checks.html",
+      "proposed_path": "articles/operate/persistence/compatibility-checks.md",
+      "new_url": "/articles/operate/persistence/compatibility-checks.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/persistence/concurrency.md",
+      "old_url": "/articles/persistence/concurrency.html",
+      "proposed_path": "articles/operate/persistence/concurrency.md",
+      "new_url": "/articles/operate/persistence/concurrency.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/persistence/consumer-data-boundaries.md",
+      "old_url": "/articles/persistence/consumer-data-boundaries.html",
+      "proposed_path": "articles/operate/persistence/consumer-data-boundaries.md",
+      "new_url": "/articles/operate/persistence/consumer-data-boundaries.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/persistence/framework-dbcontext.md",
+      "old_url": "/articles/persistence/framework-dbcontext.html",
+      "proposed_path": "articles/operate/persistence/framework-dbcontext.md",
+      "new_url": "/articles/operate/persistence/framework-dbcontext.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/persistence/framework-migrations.md",
+      "old_url": "/articles/persistence/framework-migrations.html",
+      "proposed_path": "articles/operate/persistence/framework-migrations.md",
+      "new_url": "/articles/operate/persistence/framework-migrations.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/persistence/migration-host.md",
+      "old_url": "/articles/persistence/migration-host.html",
+      "proposed_path": "articles/operate/persistence/migration-host.md",
+      "new_url": "/articles/operate/persistence/migration-host.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/persistence/postgresql-requirements.md",
+      "old_url": "/articles/persistence/postgresql-requirements.html",
+      "proposed_path": "articles/operate/persistence/postgresql-requirements.md",
+      "new_url": "/articles/operate/persistence/postgresql-requirements.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/persistence/rollback.md",
+      "old_url": "/articles/persistence/rollback.html",
+      "proposed_path": "articles/operate/persistence/rollback.md",
+      "new_url": "/articles/operate/persistence/rollback.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/persistence/schema-ownership.md",
+      "old_url": "/articles/persistence/schema-ownership.html",
+      "proposed_path": "articles/operate/persistence/schema-ownership.md",
+      "new_url": "/articles/operate/persistence/schema-ownership.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/persistence/upgrade-schema.md",
+      "old_url": "/articles/persistence/upgrade-schema.html",
+      "proposed_path": "articles/operate/persistence/upgrade-schema.md",
+      "new_url": "/articles/operate/persistence/upgrade-schema.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/security/index.md",
+      "old_url": "/articles/security/",
+      "proposed_path": "articles/operate/security/index.md",
+      "new_url": "/articles/operate/security/",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/security/authentication-cookies.md",
+      "old_url": "/articles/security/authentication-cookies.html",
+      "proposed_path": "articles/operate/security/authentication-cookies.md",
+      "new_url": "/articles/operate/security/authentication-cookies.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/security/authorization-boundaries.md",
+      "old_url": "/articles/security/authorization-boundaries.html",
+      "proposed_path": "articles/operate/security/authorization-boundaries.md",
+      "new_url": "/articles/operate/security/authorization-boundaries.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/security/deployment-checklist.md",
+      "old_url": "/articles/security/deployment-checklist.html",
+      "proposed_path": "articles/operate/security/deployment-checklist.md",
+      "new_url": "/articles/operate/security/deployment-checklist.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/security/organization-isolation.md",
+      "old_url": "/articles/security/organization-isolation.html",
+      "proposed_path": "articles/operate/security/organization-isolation.md",
+      "new_url": "/articles/operate/security/organization-isolation.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/security/password-storage.md",
+      "old_url": "/articles/security/password-storage.html",
+      "proposed_path": "articles/operate/security/password-storage.md",
+      "new_url": "/articles/operate/security/password-storage.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/security/report-vulnerability.md",
+      "old_url": "/articles/security/report-vulnerability.html",
+      "proposed_path": "articles/operate/security/report-vulnerability.md",
+      "new_url": "/articles/operate/security/report-vulnerability.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/security/secrets-management.md",
+      "old_url": "/articles/security/secrets-management.html",
+      "proposed_path": "articles/operate/security/secrets-management.md",
+      "new_url": "/articles/operate/security/secrets-management.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/security/security-model.md",
+      "old_url": "/articles/security/security-model.html",
+      "proposed_path": "articles/operate/security/security-model.md",
+      "new_url": "/articles/operate/security/security-model.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/security/sensitive-logging.md",
+      "old_url": "/articles/security/sensitive-logging.html",
+      "proposed_path": "articles/operate/security/sensitive-logging.md",
+      "new_url": "/articles/operate/security/sensitive-logging.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/security/session-expiration-and-revocation.md",
+      "old_url": "/articles/security/session-expiration-and-revocation.html",
+      "proposed_path": "articles/operate/security/session-expiration-and-revocation.md",
+      "new_url": "/articles/operate/security/session-expiration-and-revocation.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/security/stripe-webhook-authenticity.md",
+      "old_url": "/articles/security/stripe-webhook-authenticity.html",
+      "proposed_path": "articles/operate/security/stripe-webhook-authenticity.md",
+      "new_url": "/articles/operate/security/stripe-webhook-authenticity.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/security/tokens.md",
+      "old_url": "/articles/security/tokens.html",
+      "proposed_path": "articles/operate/security/tokens.md",
+      "new_url": "/articles/operate/security/tokens.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/testing/index.md",
+      "old_url": "/articles/testing/",
+      "proposed_path": "articles/build/testing/index.md",
+      "new_url": "/articles/build/testing/",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/testing/authenticated-account-context.md",
+      "old_url": "/articles/testing/authenticated-account-context.html",
+      "proposed_path": "articles/build/testing/authenticated-account-context.md",
+      "new_url": "/articles/build/testing/authenticated-account-context.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/testing/authorization-decisions.md",
+      "old_url": "/articles/testing/authorization-decisions.html",
+      "proposed_path": "articles/build/testing/authorization-decisions.md",
+      "new_url": "/articles/build/testing/authorization-decisions.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/testing/email-providers.md",
+      "old_url": "/articles/testing/email-providers.html",
+      "proposed_path": "articles/build/testing/email-providers.md",
+      "new_url": "/articles/build/testing/email-providers.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/testing/entitlements.md",
+      "old_url": "/articles/testing/entitlements.html",
+      "proposed_path": "articles/build/testing/entitlements.md",
+      "new_url": "/articles/build/testing/entitlements.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/testing/lifecycle-handlers.md",
+      "old_url": "/articles/testing/lifecycle-handlers.html",
+      "proposed_path": "articles/build/testing/lifecycle-handlers.md",
+      "new_url": "/articles/build/testing/lifecycle-handlers.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/testing/migrations.md",
+      "old_url": "/articles/testing/migrations.html",
+      "proposed_path": "articles/build/testing/migrations.md",
+      "new_url": "/articles/build/testing/migrations.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/testing/organization-context.md",
+      "old_url": "/articles/testing/organization-context.html",
+      "proposed_path": "articles/build/testing/organization-context.md",
+      "new_url": "/articles/build/testing/organization-context.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/testing/postgresql-integration.md",
+      "old_url": "/articles/testing/postgresql-integration.html",
+      "proposed_path": "articles/build/testing/postgresql-integration.md",
+      "new_url": "/articles/build/testing/postgresql-integration.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/testing/tenant-isolation.md",
+      "old_url": "/articles/testing/tenant-isolation.html",
+      "proposed_path": "articles/build/testing/tenant-isolation.md",
+      "new_url": "/articles/build/testing/tenant-isolation.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/testing/testing-package.md",
+      "old_url": "/articles/testing/testing-package.html",
+      "proposed_path": "articles/build/testing/testing-package.md",
+      "new_url": "/articles/build/testing/testing-package.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/testing/upgrades.md",
+      "old_url": "/articles/testing/upgrades.html",
+      "proposed_path": "articles/build/testing/upgrades.md",
+      "new_url": "/articles/build/testing/upgrades.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Build with Helium"
+    },
+    {
+      "current_path": "articles/troubleshooting/index.md",
+      "old_url": "/articles/troubleshooting/",
+      "proposed_path": "articles/operate/troubleshooting/index.md",
+      "new_url": "/articles/operate/troubleshooting/",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/troubleshooting/active-organization.md",
+      "old_url": "/articles/troubleshooting/active-organization.html",
+      "proposed_path": "articles/operate/troubleshooting/active-organization.md",
+      "new_url": "/articles/operate/troubleshooting/active-organization.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/troubleshooting/authentication-and-cookies.md",
+      "old_url": "/articles/troubleshooting/authentication-and-cookies.html",
+      "proposed_path": "articles/operate/troubleshooting/authentication-and-cookies.md",
+      "new_url": "/articles/operate/troubleshooting/authentication-and-cookies.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/troubleshooting/authorization.md",
+      "old_url": "/articles/troubleshooting/authorization.html",
+      "proposed_path": "articles/operate/troubleshooting/authorization.md",
+      "new_url": "/articles/operate/troubleshooting/authorization.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/troubleshooting/collect-diagnostics.md",
+      "old_url": "/articles/troubleshooting/collect-diagnostics.html",
+      "proposed_path": "articles/operate/troubleshooting/collect-diagnostics.md",
+      "new_url": "/articles/operate/troubleshooting/collect-diagnostics.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/troubleshooting/database-connections.md",
+      "old_url": "/articles/troubleshooting/database-connections.html",
+      "proposed_path": "articles/operate/troubleshooting/database-connections.md",
+      "new_url": "/articles/operate/troubleshooting/database-connections.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/troubleshooting/durable-workers.md",
+      "old_url": "/articles/troubleshooting/durable-workers.html",
+      "proposed_path": "articles/operate/troubleshooting/durable-workers.md",
+      "new_url": "/articles/operate/troubleshooting/durable-workers.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/troubleshooting/email-delivery.md",
+      "old_url": "/articles/troubleshooting/email-delivery.html",
+      "proposed_path": "articles/operate/troubleshooting/email-delivery.md",
+      "new_url": "/articles/operate/troubleshooting/email-delivery.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/troubleshooting/migrations.md",
+      "old_url": "/articles/troubleshooting/migrations.html",
+      "proposed_path": "articles/operate/troubleshooting/migrations.md",
+      "new_url": "/articles/operate/troubleshooting/migrations.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/troubleshooting/package-restore-and-compatibility.md",
+      "old_url": "/articles/troubleshooting/package-restore-and-compatibility.html",
+      "proposed_path": "articles/operate/troubleshooting/package-restore-and-compatibility.md",
+      "new_url": "/articles/operate/troubleshooting/package-restore-and-compatibility.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/troubleshooting/registration-and-verification.md",
+      "old_url": "/articles/troubleshooting/registration-and-verification.html",
+      "proposed_path": "articles/operate/troubleshooting/registration-and-verification.md",
+      "new_url": "/articles/operate/troubleshooting/registration-and-verification.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/troubleshooting/startup-and-configuration.md",
+      "old_url": "/articles/troubleshooting/startup-and-configuration.html",
+      "proposed_path": "articles/operate/troubleshooting/startup-and-configuration.md",
+      "new_url": "/articles/operate/troubleshooting/startup-and-configuration.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/troubleshooting/stripe-webhooks.md",
+      "old_url": "/articles/troubleshooting/stripe-webhooks.html",
+      "proposed_path": "articles/operate/troubleshooting/stripe-webhooks.md",
+      "new_url": "/articles/operate/troubleshooting/stripe-webhooks.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/troubleshooting/subscription-state.md",
+      "old_url": "/articles/troubleshooting/subscription-state.html",
+      "proposed_path": "articles/operate/troubleshooting/subscription-state.md",
+      "new_url": "/articles/operate/troubleshooting/subscription-state.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Deploy and operate"
+    },
+    {
+      "current_path": "articles/whats-new/index.md",
+      "old_url": "/articles/whats-new/",
+      "proposed_path": "articles/overview/whats-new/index.md",
+      "new_url": "/articles/overview/whats-new/",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Overview"
+    },
+    {
+      "current_path": "articles/whats-new/breaking-changes.md",
+      "old_url": "/articles/whats-new/breaking-changes.html",
+      "proposed_path": "articles/overview/whats-new/breaking-changes.md",
+      "new_url": "/articles/overview/whats-new/breaking-changes.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Overview"
+    },
+    {
+      "current_path": "articles/whats-new/current-release.md",
+      "old_url": "/articles/whats-new/current-release.html",
+      "proposed_path": "articles/overview/whats-new/current-release.md",
+      "new_url": "/articles/overview/whats-new/current-release.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Overview"
+    },
+    {
+      "current_path": "articles/whats-new/deprecations.md",
+      "old_url": "/articles/whats-new/deprecations.html",
+      "proposed_path": "articles/overview/whats-new/deprecations.md",
+      "new_url": "/articles/overview/whats-new/deprecations.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Overview"
+    },
+    {
+      "current_path": "articles/whats-new/preview-release.md",
+      "old_url": "/articles/whats-new/preview-release.html",
+      "proposed_path": "articles/overview/whats-new/preview-release.md",
+      "new_url": "/articles/overview/whats-new/preview-release.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Overview"
+    },
+    {
+      "current_path": "articles/whats-new/release-notes.md",
+      "old_url": "/articles/whats-new/release-notes.html",
+      "proposed_path": "articles/overview/whats-new/release-notes.md",
+      "new_url": "/articles/overview/whats-new/release-notes.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Overview"
+    },
+    {
+      "current_path": "articles/whats-new/support-policy.md",
+      "old_url": "/articles/whats-new/support-policy.html",
+      "proposed_path": "articles/overview/whats-new/support-policy.md",
+      "new_url": "/articles/overview/whats-new/support-policy.html",
+      "redirect_required": true,
+      "status": "planned",
+      "reason": "Move into canonical section: Overview"
+    }
+  ]
+}
