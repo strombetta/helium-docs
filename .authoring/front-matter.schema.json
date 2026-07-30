@@ -84,6 +84,9 @@
     "replacement": {
       "type": "string"
     },
+    "removal_planned": {
+      "type": "string"
+    },
     "upgrade_from": {
       "type": "string"
     },
