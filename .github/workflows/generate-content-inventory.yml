@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: inventory-${{ github.workflow }}-${{ github.ref }}
@@ -19,18 +19,27 @@ concurrency:
 
 jobs:
   generate:
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout pull-request branch
         uses: actions/checkout@v7
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Generate inventory
-        run: python3 scripts/generate_content_inventory.py --output-dir _inventory
+        run: python3 scripts/generate_content_inventory.py
 
-      - name: Upload inventory
-        uses: actions/upload-artifact@v4
-        with:
-          name: content-inventory
-          path: _inventory
-          if-no-files-found: error
+      - name: Commit generated inventory
+        shell: bash
+        run: |
+          git add planning/content-inventory.yml planning/url-migration-map.yml planning/content-coverage.md
+          if git diff --cached --quiet; then
+            echo "Inventory is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "docs: generate content inventory"
+          git push origin HEAD:${{ github.head_ref || github.ref_name }}
