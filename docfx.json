@@ -34,11 +34,7 @@
       "_enableSearch": true,
       "_enableNewTab": true,
       "_disableNextArticle": true,
-      "_gitContribute": {
-        "repo": "https://github.com/strombetta/helium-docs",
-        "branch": "main"
-      },
-      "_gitUrlPattern": "github",
+      "_disableContribution": true,
       "_lang": "en"
     }
   }
