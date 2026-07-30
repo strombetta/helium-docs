@@ -105,6 +105,34 @@
         "type": "string"
       },
       "uniqueItems": true
+    },
+    "_layout": {
+      "type": "string",
+      "enum": [
+        "landing",
+        "chromeless"
+      ]
+    },
+    "_disableToc": {
+      "type": "boolean"
+    },
+    "_disableAffix": {
+      "type": "boolean"
+    },
+    "_disableBreadcrumb": {
+      "type": "boolean"
+    },
+    "_disableContribution": {
+      "type": "boolean"
+    },
+    "_disableNextArticle": {
+      "type": "boolean"
+    },
+    "_disableTocFilter": {
+      "type": "boolean"
+    },
+    "_noindex": {
+      "type": "boolean"
     }
   },
   "additionalProperties": false
