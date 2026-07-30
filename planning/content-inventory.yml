@@ -30,7 +30,7 @@
     "toc_referenced": 289,
     "orphan_candidates": 0,
     "without_front_matter": 255,
-    "empty_or_placeholder": 255
+    "empty_or_placeholder": 254
   },
   "pages": [
     {
@@ -1827,8 +1827,8 @@
       "content_type": "reference",
       "area": "contributing",
       "completeness": "substantial",
-      "word_count": 1041,
-      "heading_count": 35,
+      "word_count": 897,
+      "heading_count": 20,
       "proposed_section": "Contribute",
       "proposed_path": "articles/contribute/documentation/metadata-reference.md",
       "proposed_url": "/articles/contribute/documentation/metadata-reference.html",
@@ -7223,24 +7223,24 @@
     {
       "current_path": "index.md",
       "current_url": "/",
-      "title": "Index",
+      "title": "Helium documentation",
       "toc_referenced": true,
       "toc_files": [],
       "orphan_candidate": false,
       "front_matter": true,
       "content_type": "index",
       "area": "product",
-      "completeness": "empty",
-      "word_count": 0,
+      "completeness": "substantial",
+      "word_count": 724,
       "heading_count": 0,
       "proposed_section": "Home",
       "proposed_path": "index.md",
       "proposed_url": "/",
-      "action": "REWRITE",
+      "action": "KEEP",
       "priority": "P0",
       "source": "framework specifications and accepted ADRs",
       "owner": "product",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
