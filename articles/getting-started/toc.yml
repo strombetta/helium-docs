@@ -1,23 +1,7 @@
 items:
-- name: Getting started
+- name: Get started
   href: index.md
 - name: Prerequisites
   href: prerequisites.md
-- name: Install the Helium project template
+- name: Project template availability
   href: install-template.md
-- name: Create your first Helium application
-  href: create-application.md
-- name: Configure local development
-  href: configure-local-development.md
-- name: Configure PostgreSQL
-  href: configure-postgresql.md
-- name: Create and migrate the database
-  href: create-and-migrate-database.md
-- name: Run the application
-  href: run-application.md
-- name: Register the first account
-  href: register-first-account.md
-- name: Complete organization onboarding
-  href: complete-onboarding.md
-- name: Next steps
-  href: next-steps.md

@@ -1,99 +1,72 @@
+---
+title: What is Helium?
+description: Understand the Helium product direction, the target SaaS capabilities, the framework dependency model, and current preview availability.
+uid: product-what-is-helium
+content_type: overview
+area: product
+version: preview
+status: preview
+last_reviewed: 2026-07-30
+source:
+  - docs/product/definition.md
+  - docs/product/requirements.md
+  - docs/planning/implementation-plan.md
+---
+
 # What is Helium?
 
-Helium is a modular, self-hosted, versioned, and extensible framework for building SaaS applications with .NET.
+Helium is the code name for a modular, self-hosted, versioned, and extensible SaaS application framework for .NET. Its stable technical identity is `Trombetta.SaaS`.
 
-It provides a maintained foundation for the capabilities that most SaaS products need but that rarely make the product unique. Instead of implementing these capabilities from scratch, copying them from a starter repository, or depending on a proprietary hosted platform, a team can use Helium as part of its own application.
+> [!IMPORTANT]
+> Helium is currently a development preview. The repository contains implemented framework foundations and capability work, but no supported consumer release or official application template has been published.
 
-Helium is designed for technical founders, software developers, and engineering teams that want to spend more time on product-specific features while retaining control of their application, infrastructure, deployment, integrations, and data.
+## What Helium is designed to provide
 
-## A foundation for common SaaS capabilities
+The target Initial MVP brings recurring SaaS concerns into one coordinated framework:
 
-A production SaaS application needs more than its main product features. It also needs accounts, organizations, authorization, billing, email, administration, deployment support, and reliable background processing. These areas are closely connected and must use consistent rules and data.
-
-Helium brings those recurring concerns together in one framework. Its capability areas include:
-
-- account registration, email verification, sign-in, sessions, and password recovery;
-- onboarding and first-organization creation;
+- account registration, verification, authentication, sessions, and recovery;
+- first-organization onboarding;
 - organizations, memberships, invitations, roles, and ownership;
-- organization-scoped authorization and tenant context;
-- subscription billing through Stripe;
-- plan-based entitlements for controlling product access;
-- transactional email for account, invitation, and billing workflows;
-- personal and organization settings;
-- persistence, migrations, durable background work, health information, and deployment guidance.
+- validated organization context and server-side authorization;
+- Stripe subscription billing and normalized local subscription state;
+- plan-based entitlements;
+- transactional email and durable provider processing;
+- persistence, migrations, health information, diagnostics, and deployment guidance;
+- public contracts, testing support, and documented extension points.
 
-These capabilities are designed to work together. For example, organization membership determines which tenant a user can access, authorization determines which operations the user can perform, and subscription entitlements determine which product features the organization can use.
+These capabilities use shared concepts and lifecycle rules. Authentication identifies an account; membership grants access to an organization; roles authorize organization operations; subscription state and entitlements determine product access.
 
-## Helium remains a framework dependency
+## How Helium fits into an application
 
-Helium is not copied into an application as source code. A consuming application references versioned Helium artifacts and remains connected to the framework's release lifecycle.
+The Initial MVP is a package-based modular monolith. A consuming application is expected to reference coordinated `Trombetta.SaaS` artifacts rather than copy framework implementation source.
 
-This model is important after the first release of the application. It allows a team to adopt supported fixes, migrations, compatibility updates, and new framework versions without manually reconciling a large body of locally modified starter code.
+The application remains consumer-owned. Product modules, product data, configuration, secrets, infrastructure, monitoring, backups, and recovery remain the responsibility of the organization operating the application.
 
-Helium provides:
+Helium owns the common framework implementation, its public contracts, framework persistence, migrations, and supported upgrade path. Product-specific code depends on documented contracts rather than internal entities or provider SDK models.
 
-- an official reference architecture for the supported application model;
-- versioned framework packages and database migrations;
-- default workflows and user interfaces;
-- documented configuration options;
-- public contracts and supported extension points;
-- release and upgrade guidance.
+## Current availability
 
-Application-specific functionality stays in the consuming application. It can use Helium's public contracts without depending on internal framework implementation details.
+As of July 30, 2026, engineering foundations, public contracts, PostgreSQL persistence and durable processing, and identity/onboarding workstreams are recorded as complete. Organizations and authorization are in progress. Billing, entitlements, transactional email, reference presentation, project templates, deployment validation, and release publication remain incomplete.
 
-## Self-hosted and under your control
+The `Trombetta.SaaS.Templates` project currently reserves the future tooling artifact boundary; it does not yet contain a usable `dotnet new` template.
 
-Helium does not run your product for you. You deploy and operate the application in infrastructure that you control.
+## When to consider Helium
 
-Your organization retains ownership of:
+Helium is intended for teams that:
 
-- the consuming application and its source code;
-- product-specific modules and data;
-- infrastructure and deployment choices;
-- application configuration and secrets;
-- third-party integrations;
-- operational monitoring, backups, and recovery.
+- are building a new SaaS application with .NET;
+- want one integrated model for common SaaS capabilities;
+- accept the official reference architecture for the initial adoption path;
+- need to retain control of infrastructure, deployment, integrations, and data;
+- prefer a maintained framework dependency over copied starter code;
+- are prepared to operate a self-hosted application.
 
-Helium may provide packages, project templates, container images, and deployment instructions, but these are delivery mechanisms for the framework. They do not turn Helium into a proprietary application runtime or hosted SaaS platform.
+## Limitations
 
-## Opinionated where consistency matters
+The Initial MVP does not target arbitrary integration into existing architectures, multiple database engines, multiple billing providers, Kubernetes, high-availability multi-replica deployment, or a general public HTTP API.
 
-Helium defines clear domain rules for the capabilities it manages. For example, organization-scoped operations require a valid organization context, authorization is enforced on the server, and an organization must retain a valid owner.
-
-These opinions provide a coherent and supportable model. They reduce the number of architectural decisions that each application team must make independently and help prevent different capability areas from developing incompatible concepts.
-
-Helium does not, however, control the complete architecture of the consuming product. Product-specific behavior and data can remain outside Helium-owned modules. Supported behavior can be configured or extended through public contracts instead of by changing framework internals.
-
-## Initial supported application model
-
-The initial supported path is for new SaaS applications created from the official Helium reference architecture. The reference model uses a single ASP.NET Core application with an external PostgreSQL database and integrates the Helium capability modules into one deployable application.
-
-The supported production path is self-hosted and container-based. Stripe is the supported billing provider for the initial product scope, and transactional email is connected through a provider adapter.
-
-Progressive integration of individual modules into an existing .NET application is part of Helium's longer-term direction, but it is not the primary initial adoption path. See [Supported application model](supported-application-model.md) and [Product scope and current limitations](scope-and-limitations.md) for the applicable boundaries.
-
-## Who Helium is for
-
-Helium is intended primarily for:
-
-- technical founders creating and validating a SaaS product;
-- .NET developers who need a working application foundation;
-- engineering teams that expect to maintain and upgrade a product over multiple releases;
-- engineering leaders evaluating delivery speed, operational control, and lifecycle cost;
-- operators responsible for deploying, monitoring, updating, and recovering the application.
-
-Helium is most relevant when a team wants an integrated SaaS foundation, accepts a supported reference model for common capability domains, and still needs to own and operate the resulting product.
-
-## What Helium is not
-
-Helium is not:
-
-- a one-time boilerplate or copied starter application;
-- a proprietary managed SaaS runtime;
-- a collection of unrelated low-level libraries that the application must integrate itself;
-- a replacement for the .NET ecosystem, ASP.NET Core, or general application architecture;
-- a platform that owns the consuming application's infrastructure or data.
+Current preview limitations are broader because the official template, complete capability set, validated deployment path, published packages, and release compatibility evidence are not yet available.
 
 ## Next steps
 
-Read [Why use Helium?](why-use-helium.md) to understand the problems it addresses and the trade-offs involved. Then review the [Supported application model](supported-application-model.md) before following the [Getting started](../getting-started/index.md) guide.
+Read [Why use Helium?](why-use-helium.md), review the [supported application model](supported-application-model.md), and check the [product scope and current limitations](scope-and-limitations.md).
