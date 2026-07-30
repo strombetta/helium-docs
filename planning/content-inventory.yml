@@ -29,8 +29,8 @@
     "pages": 289,
     "toc_referenced": 289,
     "orphan_candidates": 0,
-    "without_front_matter": 256,
-    "empty_or_placeholder": 256
+    "without_front_matter": 255,
+    "empty_or_placeholder": 255
   },
   "pages": [
     {
@@ -236,18 +236,18 @@
     {
       "current_path": "api/index.md",
       "current_url": "/api/",
-      "title": "Index",
+      "title": ".NET API",
       "toc_referenced": true,
       "toc_files": [
         "api/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "api",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 81,
+      "heading_count": 4,
       "proposed_section": "Reference",
       "proposed_path": "api/index.md",
       "proposed_url": "/api/",
@@ -255,7 +255,7 @@
       "priority": "P1",
       "source": "public API, constants, and generated reference inputs",
       "owner": "api",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
