@@ -11,6 +11,10 @@ items:
   href: authoring-conventions.md
 - name: TOC conventions
   href: toc-conventions.md
+- name: Metadata reference
+  href: metadata-reference.md
+- name: Issue and pull-request workflow
+  href: issues-and-pull-requests.md
 - name: API documentation generation
   href: api-generation.md
 - name: Validate links and cross-references
@@ -33,7 +37,5 @@ items:
   href: testing-policy.md
 - name: Packaging and versioning
   href: packaging-and-versioning.md
-- name: Issue and pull-request workflow
-  href: issues-and-pull-requests.md
 - name: Release process
   href: release-process.md
