@@ -26,11 +26,11 @@
     ]
   },
   "summary": {
-    "pages": 287,
-    "toc_referenced": 287,
+    "pages": 289,
+    "toc_referenced": 289,
     "orphan_candidates": 0,
-    "without_front_matter": 279,
-    "empty_or_placeholder": 279
+    "without_front_matter": 256,
+    "empty_or_placeholder": 256
   },
   "pages": [
     {
@@ -439,27 +439,27 @@
     {
       "current_path": "articles/authorization/index.md",
       "current_url": "/articles/authorization/",
-      "title": "Index",
+      "title": "Authorization",
       "toc_referenced": true,
       "toc_files": [
         "articles/authorization/toc.yml",
         "articles/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "authorization",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 71,
+      "heading_count": 3,
       "proposed_section": "Build with Helium",
       "proposed_path": "articles/build/authorization/index.md",
       "proposed_url": "/articles/build/authorization/",
-      "action": "REWRITE",
+      "action": "MOVE",
       "priority": "P0",
       "source": "framework code, tests, configuration, and specifications",
       "owner": "authorization",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -777,27 +777,27 @@
     {
       "current_path": "articles/billing/index.md",
       "current_url": "/articles/billing/",
-      "title": "Index",
+      "title": "Billing and subscriptions",
       "toc_referenced": true,
       "toc_files": [
         "articles/billing/toc.yml",
         "articles/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "billing",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 83,
+      "heading_count": 3,
       "proposed_section": "Build with Helium",
       "proposed_path": "articles/build/billing/index.md",
       "proposed_url": "/articles/build/billing/",
-      "action": "REWRITE",
+      "action": "MOVE",
       "priority": "P2",
       "source": "framework code, tests, configuration, and specifications",
       "owner": "billing",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -957,6 +957,31 @@
       "dependencies": []
     },
     {
+      "current_path": "articles/build/index.md",
+      "current_url": "/articles/build/",
+      "title": "Build with Helium",
+      "toc_referenced": true,
+      "toc_files": [
+        "articles/toc.yml"
+      ],
+      "orphan_candidate": false,
+      "front_matter": true,
+      "content_type": "index",
+      "area": "configuration",
+      "completeness": "outline",
+      "word_count": 64,
+      "heading_count": 3,
+      "proposed_section": "Reference",
+      "proposed_path": "articles/build/index.md",
+      "proposed_url": "/articles/build/",
+      "action": "REWRITE",
+      "priority": "P0",
+      "source": "framework code, tests, configuration, and specifications",
+      "owner": "configuration",
+      "target_version": "all",
+      "dependencies": []
+    },
+    {
       "current_path": "articles/communications/configure-provider.md",
       "current_url": "/articles/communications/configure-provider.html",
       "title": "Configure Provider",
@@ -1063,27 +1088,27 @@
     {
       "current_path": "articles/communications/index.md",
       "current_url": "/articles/communications/",
-      "title": "Index",
+      "title": "Transactional email",
       "toc_referenced": true,
       "toc_files": [
         "articles/communications/toc.yml",
         "articles/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "communications",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 82,
+      "heading_count": 3,
       "proposed_section": "Build with Helium",
       "proposed_path": "articles/build/communications/index.md",
       "proposed_url": "/articles/build/communications/",
-      "action": "REWRITE",
+      "action": "MOVE",
       "priority": "P1",
       "source": "framework code, tests, configuration, and specifications",
       "owner": "communications",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -1323,27 +1348,27 @@
     {
       "current_path": "articles/configuration/index.md",
       "current_url": "/articles/configuration/",
-      "title": "Index",
+      "title": "Configure Helium",
       "toc_referenced": true,
       "toc_files": [
         "articles/configuration/toc.yml",
         "articles/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "configuration",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 76,
+      "heading_count": 3,
       "proposed_section": "Build with Helium",
       "proposed_path": "articles/build/configuration/index.md",
       "proposed_url": "/articles/build/configuration/",
-      "action": "REWRITE",
+      "action": "MOVE",
       "priority": "P0",
       "source": "framework code, tests, configuration, and specifications",
       "owner": "configuration",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -1794,7 +1819,8 @@
       "title": "Metadata reference",
       "toc_referenced": true,
       "toc_files": [
-        "articles/contributing/toc.yml"
+        "articles/contributing/toc.yml",
+        "articles/toc.yml"
       ],
       "orphan_candidate": false,
       "front_matter": true,
@@ -2128,27 +2154,27 @@
     {
       "current_path": "articles/deployment/index.md",
       "current_url": "/articles/deployment/",
-      "title": "Index",
+      "title": "Deployment",
       "toc_referenced": true,
       "toc_files": [
         "articles/deployment/toc.yml",
         "articles/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "deployment",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 95,
+      "heading_count": 3,
       "proposed_section": "Deploy and operate",
       "proposed_path": "articles/operate/deployment/index.md",
       "proposed_url": "/articles/operate/deployment/",
-      "action": "REWRITE",
+      "action": "MOVE",
       "priority": "P0",
       "source": "framework code, tests, configuration, and specifications",
       "owner": "deployment",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -2492,27 +2518,27 @@
     {
       "current_path": "articles/diagnostics/index.md",
       "current_url": "/articles/diagnostics/",
-      "title": "Index",
+      "title": "Logging and diagnostics",
       "toc_referenced": true,
       "toc_files": [
         "articles/diagnostics/toc.yml",
         "articles/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "diagnostics",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 73,
+      "heading_count": 3,
       "proposed_section": "Deploy and operate",
       "proposed_path": "articles/operate/diagnostics/index.md",
       "proposed_url": "/articles/operate/diagnostics/",
-      "action": "REWRITE",
+      "action": "MOVE",
       "priority": "P1",
       "source": "framework code, tests, configuration, and specifications",
       "owner": "diagnostics",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -2830,27 +2856,27 @@
     {
       "current_path": "articles/durable-processing/index.md",
       "current_url": "/articles/durable-processing/",
-      "title": "Index",
+      "title": "Durable processing",
       "toc_referenced": true,
       "toc_files": [
         "articles/durable-processing/toc.yml",
         "articles/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "durable-processing",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 78,
+      "heading_count": 3,
       "proposed_section": "Deploy and operate",
       "proposed_path": "articles/operate/durable-processing/index.md",
       "proposed_url": "/articles/operate/durable-processing/",
-      "action": "REWRITE",
+      "action": "MOVE",
       "priority": "P1",
       "source": "framework code, tests, configuration, and specifications",
       "owner": "durable-processing",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -3116,27 +3142,27 @@
     {
       "current_path": "articles/entitlements/index.md",
       "current_url": "/articles/entitlements/",
-      "title": "Index",
+      "title": "Entitlements",
       "toc_referenced": true,
       "toc_files": [
         "articles/entitlements/toc.yml",
         "articles/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "entitlements",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 75,
+      "heading_count": 3,
       "proposed_section": "Build with Helium",
       "proposed_path": "articles/build/entitlements/index.md",
       "proposed_url": "/articles/build/entitlements/",
-      "action": "REWRITE",
+      "action": "MOVE",
       "priority": "P1",
       "source": "framework code, tests, configuration, and specifications",
       "owner": "entitlements",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -3197,7 +3223,8 @@
       "title": "Branding And Navigation",
       "toc_referenced": true,
       "toc_files": [
-        "articles/extensibility/toc.yml"
+        "articles/extensibility/toc.yml",
+        "articles/toc.yml"
       ],
       "orphan_candidate": false,
       "front_matter": false,
@@ -3222,7 +3249,8 @@
       "title": "Compatibility",
       "toc_referenced": true,
       "toc_files": [
-        "articles/extensibility/toc.yml"
+        "articles/extensibility/toc.yml",
+        "articles/toc.yml"
       ],
       "orphan_candidate": false,
       "front_matter": false,
@@ -3247,7 +3275,8 @@
       "title": "Consumer Authorization Policies",
       "toc_referenced": true,
       "toc_files": [
-        "articles/extensibility/toc.yml"
+        "articles/extensibility/toc.yml",
+        "articles/toc.yml"
       ],
       "orphan_candidate": false,
       "front_matter": false,
@@ -3272,7 +3301,8 @@
       "title": "Extension Model",
       "toc_referenced": true,
       "toc_files": [
-        "articles/extensibility/toc.yml"
+        "articles/extensibility/toc.yml",
+        "articles/toc.yml"
       ],
       "orphan_candidate": false,
       "front_matter": false,
@@ -3297,7 +3327,8 @@
       "title": "Idempotent Processing",
       "toc_referenced": true,
       "toc_files": [
-        "articles/extensibility/toc.yml"
+        "articles/extensibility/toc.yml",
+        "articles/toc.yml"
       ],
       "orphan_candidate": false,
       "front_matter": false,
@@ -3319,26 +3350,27 @@
     {
       "current_path": "articles/extensibility/index.md",
       "current_url": "/articles/extensibility/",
-      "title": "Index",
+      "title": "Extend and customize",
       "toc_referenced": true,
       "toc_files": [
-        "articles/extensibility/toc.yml"
+        "articles/extensibility/toc.yml",
+        "articles/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "extensibility",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 98,
+      "heading_count": 3,
       "proposed_section": "Extend and customize",
       "proposed_path": "articles/extend/index.md",
       "proposed_url": "/articles/extend/",
-      "action": "REWRITE",
+      "action": "MOVE",
       "priority": "P2",
       "source": "framework code, tests, configuration, and specifications",
       "owner": "extensibility",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -3347,7 +3379,8 @@
       "title": "Lifecycle Event Catalog",
       "toc_referenced": true,
       "toc_files": [
-        "articles/extensibility/toc.yml"
+        "articles/extensibility/toc.yml",
+        "articles/toc.yml"
       ],
       "orphan_candidate": false,
       "front_matter": false,
@@ -3372,7 +3405,8 @@
       "title": "Lifecycle Handlers",
       "toc_referenced": true,
       "toc_files": [
-        "articles/extensibility/toc.yml"
+        "articles/extensibility/toc.yml",
+        "articles/toc.yml"
       ],
       "orphan_candidate": false,
       "front_matter": false,
@@ -3397,7 +3431,8 @@
       "title": "Public Contracts",
       "toc_referenced": true,
       "toc_files": [
-        "articles/extensibility/toc.yml"
+        "articles/extensibility/toc.yml",
+        "articles/toc.yml"
       ],
       "orphan_candidate": false,
       "front_matter": false,
@@ -3422,7 +3457,8 @@
       "title": "Register Consumer Services",
       "toc_referenced": true,
       "toc_files": [
-        "articles/extensibility/toc.yml"
+        "articles/extensibility/toc.yml",
+        "articles/toc.yml"
       ],
       "orphan_candidate": false,
       "front_matter": false,
@@ -3447,7 +3483,8 @@
       "title": "Replace Email Provider",
       "toc_referenced": true,
       "toc_files": [
-        "articles/extensibility/toc.yml"
+        "articles/extensibility/toc.yml",
+        "articles/toc.yml"
       ],
       "orphan_candidate": false,
       "front_matter": false,
@@ -3472,7 +3509,8 @@
       "title": "Replace Presentation",
       "toc_referenced": true,
       "toc_files": [
-        "articles/extensibility/toc.yml"
+        "articles/extensibility/toc.yml",
+        "articles/toc.yml"
       ],
       "orphan_candidate": false,
       "front_matter": false,
@@ -3497,7 +3535,8 @@
       "title": "Supported Customizations",
       "toc_referenced": true,
       "toc_files": [
-        "articles/extensibility/toc.yml"
+        "articles/extensibility/toc.yml",
+        "articles/toc.yml"
       ],
       "orphan_candidate": false,
       "front_matter": false,
@@ -3623,19 +3662,19 @@
     {
       "current_path": "articles/fundamentals/index.md",
       "current_url": "/articles/fundamentals/",
-      "title": "Index",
+      "title": "Fundamentals",
       "toc_referenced": true,
       "toc_files": [
         "articles/fundamentals/toc.yml",
         "articles/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "architecture",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 96,
+      "heading_count": 3,
       "proposed_section": "Fundamentals",
       "proposed_path": "articles/fundamentals/index.md",
       "proposed_url": "/articles/fundamentals/",
@@ -3643,7 +3682,7 @@
       "priority": "P0",
       "source": "framework specifications and accepted ADRs",
       "owner": "architecture",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -3987,19 +4026,19 @@
     {
       "current_path": "articles/getting-started/index.md",
       "current_url": "/articles/getting-started/",
-      "title": "Index",
+      "title": "Get started",
       "toc_referenced": true,
       "toc_files": [
         "articles/getting-started/toc.yml",
         "articles/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "getting-started",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 85,
+      "heading_count": 3,
       "proposed_section": "Get started",
       "proposed_path": "articles/getting-started/index.md",
       "proposed_url": "/articles/getting-started/",
@@ -4007,7 +4046,7 @@
       "priority": "P0",
       "source": "framework code, tests, configuration, and specifications",
       "owner": "getting-started",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -4221,27 +4260,27 @@
     {
       "current_path": "articles/hosting/index.md",
       "current_url": "/articles/hosting/",
-      "title": "Index",
+      "title": "ASP.NET Core hosting",
       "toc_referenced": true,
       "toc_files": [
         "articles/hosting/toc.yml",
         "articles/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "hosting",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 73,
+      "heading_count": 3,
       "proposed_section": "Deploy and operate",
       "proposed_path": "articles/operate/hosting/index.md",
       "proposed_url": "/articles/operate/hosting/",
-      "action": "REWRITE",
+      "action": "MOVE",
       "priority": "P2",
       "source": "framework code, tests, configuration, and specifications",
       "owner": "hosting",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -4533,27 +4572,27 @@
     {
       "current_path": "articles/identity/index.md",
       "current_url": "/articles/identity/",
-      "title": "Index",
+      "title": "Identity and accounts",
       "toc_referenced": true,
       "toc_files": [
         "articles/identity/toc.yml",
         "articles/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "identity",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 82,
+      "heading_count": 3,
       "proposed_section": "Build with Helium",
       "proposed_path": "articles/build/identity/index.md",
       "proposed_url": "/articles/build/identity/",
-      "action": "REWRITE",
+      "action": "MOVE",
       "priority": "P0",
       "source": "framework code, tests, configuration, and specifications",
       "owner": "identity",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -4819,27 +4858,27 @@
     {
       "current_path": "articles/onboarding/index.md",
       "current_url": "/articles/onboarding/",
-      "title": "Index",
+      "title": "Onboarding",
       "toc_referenced": true,
       "toc_files": [
         "articles/onboarding/toc.yml",
         "articles/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "onboarding",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 63,
+      "heading_count": 3,
       "proposed_section": "Build with Helium",
       "proposed_path": "articles/build/onboarding/index.md",
       "proposed_url": "/articles/build/onboarding/",
-      "action": "REWRITE",
+      "action": "MOVE",
       "priority": "P1",
       "source": "framework code, tests, configuration, and specifications",
       "owner": "onboarding",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -4892,6 +4931,31 @@
       "source": "framework code, tests, configuration, and specifications",
       "owner": "onboarding",
       "target_version": "preview",
+      "dependencies": []
+    },
+    {
+      "current_path": "articles/operate/index.md",
+      "current_url": "/articles/operate/",
+      "title": "Deploy and operate",
+      "toc_referenced": true,
+      "toc_files": [
+        "articles/toc.yml"
+      ],
+      "orphan_candidate": false,
+      "front_matter": true,
+      "content_type": "index",
+      "area": "deployment",
+      "completeness": "outline",
+      "word_count": 62,
+      "heading_count": 3,
+      "proposed_section": "Reference",
+      "proposed_path": "articles/operate/index.md",
+      "proposed_url": "/articles/operate/",
+      "action": "REWRITE",
+      "priority": "P0",
+      "source": "framework code, tests, configuration, and specifications",
+      "owner": "deployment",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -4949,27 +5013,27 @@
     {
       "current_path": "articles/organizations/index.md",
       "current_url": "/articles/organizations/",
-      "title": "Index",
+      "title": "Organizations and tenancy",
       "toc_referenced": true,
       "toc_files": [
         "articles/organizations/toc.yml",
         "articles/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "organizations",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 75,
+      "heading_count": 3,
       "proposed_section": "Build with Helium",
       "proposed_path": "articles/build/organizations/index.md",
       "proposed_url": "/articles/build/organizations/",
-      "action": "REWRITE",
+      "action": "MOVE",
       "priority": "P0",
       "source": "framework code, tests, configuration, and specifications",
       "owner": "organizations",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -5235,19 +5299,19 @@
     {
       "current_path": "articles/overview/index.md",
       "current_url": "/articles/overview/",
-      "title": "Index",
+      "title": "Overview",
       "toc_referenced": true,
       "toc_files": [
         "articles/overview/toc.yml",
         "articles/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "product",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 75,
+      "heading_count": 3,
       "proposed_section": "Overview",
       "proposed_path": "articles/overview/index.md",
       "proposed_url": "/articles/overview/",
@@ -5255,7 +5319,7 @@
       "priority": "P0",
       "source": "framework specifications and accepted ADRs",
       "owner": "product",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -5469,27 +5533,27 @@
     {
       "current_path": "articles/performance/index.md",
       "current_url": "/articles/performance/",
-      "title": "Index",
+      "title": "Performance and scalability",
       "toc_referenced": true,
       "toc_files": [
         "articles/performance/toc.yml",
         "articles/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "performance",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 71,
+      "heading_count": 3,
       "proposed_section": "Deploy and operate",
       "proposed_path": "articles/operate/performance/index.md",
       "proposed_url": "/articles/operate/performance/",
-      "action": "REWRITE",
+      "action": "MOVE",
       "priority": "P2",
       "source": "framework code, tests, configuration, and specifications",
       "owner": "performance",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -5807,27 +5871,27 @@
     {
       "current_path": "articles/persistence/index.md",
       "current_url": "/articles/persistence/",
-      "title": "Index",
+      "title": "Persistence and migrations",
       "toc_referenced": true,
       "toc_files": [
         "articles/persistence/toc.yml",
         "articles/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "persistence",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 81,
+      "heading_count": 3,
       "proposed_section": "Deploy and operate",
       "proposed_path": "articles/operate/persistence/index.md",
       "proposed_url": "/articles/operate/persistence/",
-      "action": "REWRITE",
+      "action": "MOVE",
       "priority": "P1",
       "source": "framework code, tests, configuration, and specifications",
       "owner": "persistence",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -6041,27 +6105,27 @@
     {
       "current_path": "articles/security/index.md",
       "current_url": "/articles/security/",
-      "title": "Index",
+      "title": "Security",
       "toc_referenced": true,
       "toc_files": [
         "articles/security/toc.yml",
         "articles/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "security",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 78,
+      "heading_count": 3,
       "proposed_section": "Deploy and operate",
       "proposed_path": "articles/operate/security/index.md",
       "proposed_url": "/articles/operate/security/",
-      "action": "REWRITE",
+      "action": "MOVE",
       "priority": "P0",
       "source": "framework code, tests, configuration, and specifications",
       "owner": "security",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -6405,27 +6469,27 @@
     {
       "current_path": "articles/testing/index.md",
       "current_url": "/articles/testing/",
-      "title": "Index",
+      "title": "Testing",
       "toc_referenced": true,
       "toc_files": [
         "articles/testing/toc.yml",
         "articles/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "testing",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 79,
+      "heading_count": 3,
       "proposed_section": "Build with Helium",
       "proposed_path": "articles/build/testing/index.md",
       "proposed_url": "/articles/build/testing/",
-      "action": "REWRITE",
+      "action": "MOVE",
       "priority": "P2",
       "source": "framework code, tests, configuration, and specifications",
       "owner": "testing",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -6795,27 +6859,27 @@
     {
       "current_path": "articles/troubleshooting/index.md",
       "current_url": "/articles/troubleshooting/",
-      "title": "Index",
+      "title": "Troubleshooting",
       "toc_referenced": true,
       "toc_files": [
         "articles/toc.yml",
         "articles/troubleshooting/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "troubleshooting",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 93,
+      "heading_count": 3,
       "proposed_section": "Deploy and operate",
       "proposed_path": "articles/operate/troubleshooting/index.md",
       "proposed_url": "/articles/operate/troubleshooting/",
-      "action": "REWRITE",
+      "action": "MOVE",
       "priority": "P0",
       "source": "framework code, tests, configuration, and specifications",
       "owner": "troubleshooting",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -7055,27 +7119,27 @@
     {
       "current_path": "articles/whats-new/index.md",
       "current_url": "/articles/whats-new/",
-      "title": "Index",
+      "title": "What's new",
       "toc_referenced": true,
       "toc_files": [
         "articles/toc.yml",
         "articles/whats-new/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
       "area": "compatibility",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "completeness": "outline",
+      "word_count": 56,
+      "heading_count": 3,
       "proposed_section": "Overview",
       "proposed_path": "articles/overview/whats-new/index.md",
       "proposed_url": "/articles/overview/whats-new/",
-      "action": "REWRITE",
+      "action": "MOVE",
       "priority": "P1",
       "source": "framework specifications and accepted ADRs",
       "owner": "compatibility",
-      "target_version": "preview",
+      "target_version": "all",
       "dependencies": []
     },
     {
@@ -7312,27 +7376,27 @@
     {
       "current_path": "reference/index.md",
       "current_url": "/reference/",
-      "title": "Index",
+      "title": "Reference",
       "toc_referenced": true,
       "toc_files": [
         "articles/toc.yml",
         "reference/toc.yml"
       ],
       "orphan_candidate": false,
-      "front_matter": false,
+      "front_matter": true,
       "content_type": "index",
-      "area": "compatibility",
-      "completeness": "empty",
-      "word_count": 0,
-      "heading_count": 0,
+      "area": "api",
+      "completeness": "outline",
+      "word_count": 75,
+      "heading_count": 3,
       "proposed_section": "Reference",
       "proposed_path": "reference/index.md",
       "proposed_url": "/reference/",
       "action": "REWRITE",
       "priority": "P1",
-      "source": "framework specifications and accepted ADRs",
-      "owner": "compatibility",
-      "target_version": "preview",
+      "source": "public API, constants, and generated reference inputs",
+      "owner": "api",
+      "target_version": "all",
       "dependencies": []
     },
     {
