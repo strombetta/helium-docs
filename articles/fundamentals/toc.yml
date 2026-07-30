@@ -3,7 +3,7 @@ items:
   href: index.md
 - name: Reference application architecture
   href: reference-architecture.md
-- name: Package and module organization
+- name: Packages and modules
   href: packages-and-modules.md
 - name: Application composition
   href: application-composition.md
@@ -13,9 +13,9 @@ items:
   href: accounts-and-account-context.md
 - name: Organizations and tenant context
   href: organizations-and-tenant-context.md
-- name: Memberships, roles and authorization
+- name: Memberships, roles, and authorization
   href: memberships-roles-authorization.md
-- name: Plans, subscriptions and entitlements
+- name: Plans, subscriptions, and entitlements
   href: plans-subscriptions-entitlements.md
 - name: Operation results and errors
   href: operation-results-and-errors.md
