@@ -1,10 +1,36 @@
 # Files subject to blocking authoring validation during staged migration.
 # Keep paths repository-relative, one per line, and add files only after review.
 
-articles/contributing/index.md
-articles/contributing/documentation-architecture.md
+api/index.md
+articles/authorization/index.md
+articles/billing/index.md
+articles/build/index.md
+articles/communications/index.md
+articles/configuration/index.md
 articles/contributing/authoring-conventions.md
-articles/contributing/toc-conventions.md
-articles/contributing/metadata-reference.md
+articles/contributing/documentation-architecture.md
+articles/contributing/index.md
 articles/contributing/issues-and-pull-requests.md
+articles/contributing/metadata-reference.md
 articles/contributing/publication-process.md
+articles/contributing/toc-conventions.md
+articles/deployment/index.md
+articles/diagnostics/index.md
+articles/durable-processing/index.md
+articles/entitlements/index.md
+articles/extensibility/index.md
+articles/fundamentals/index.md
+articles/getting-started/index.md
+articles/hosting/index.md
+articles/identity/index.md
+articles/onboarding/index.md
+articles/operate/index.md
+articles/organizations/index.md
+articles/overview/index.md
+articles/performance/index.md
+articles/persistence/index.md
+articles/security/index.md
+articles/testing/index.md
+articles/troubleshooting/index.md
+articles/whats-new/index.md
+reference/index.md

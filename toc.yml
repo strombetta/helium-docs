@@ -1,7 +1,3 @@
 items:
-- name: Docs
+- name: "Documentation"
   href: articles/
-- name: API
-  href: api/
-- name: Extensions
-  href: articles/extensibility/
