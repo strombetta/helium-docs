@@ -1,0 +1,42 @@
+name: Apply canonical navigation
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/apply_canonical_navigation.py'
+      - '.github/workflows/apply-canonical-navigation.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: canonical-navigation-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  apply:
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout pull-request branch
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+
+      - name: Apply canonical navigation
+        run: python3 scripts/apply_canonical_navigation.py
+
+      - name: Commit generated navigation
+        shell: bash
+        run: |
+          git add toc.yml articles/toc.yml articles/**/index.md reference/index.md .authoring/managed-files.txt planning/content-inventory.yml planning/url-migration-map.yml planning/content-coverage.md
+          if git diff --cached --quiet; then
+            echo "Canonical navigation is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "docs: apply canonical navigation"
+          git push origin HEAD:${{ github.head_ref || github.ref_name }}
