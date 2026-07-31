@@ -3,7 +3,7 @@ set -euo pipefail
 
 font_directory="templates/helium/public/fonts"
 font_path="${font_directory}/inter-latin-wght-normal.woff2"
-font_url="https://raw.githubusercontent.com/fontsource/font-files/9c76865650f64dd9242db524070753930bc7685c/fonts/variable/inter/files/manrope-latin-wght-normal.woff2"
+font_url="https://raw.githubusercontent.com/fontsource/font-files/9c76865650f64dd9242db524070753930bc7685c/fonts/variable/inter/files/inter-latin-wght-normal.woff2"
 expected_blob_sha="d15208de03cd1ad7c5199f0a0ce915fe841e4722"
 
 mkdir -p "${font_directory}"
