@@ -83,6 +83,7 @@ h1 {
 }
 
 h2 {
+  margin: 20px 0;
   color: rgb(22, 22, 22);
   font-size: 32px;
   font-weight: 600;
