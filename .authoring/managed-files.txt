@@ -2,7 +2,15 @@
 # Keep paths repository-relative, one per line, and add files only after review.
 
 api/index.md
+articles/authorization/consumer-policies.md
+articles/authorization/evaluate.md
+articles/authorization/framework-policies.md
 articles/authorization/index.md
+articles/authorization/model.md
+articles/authorization/protect-endpoints.md
+articles/authorization/protect-operations.md
+articles/authorization/roles-and-entitlements.md
+articles/authorization/troubleshooting.md
 articles/billing/index.md
 articles/build/index.md
 articles/communications/index.md
@@ -56,7 +64,18 @@ articles/onboarding/index.md
 articles/onboarding/state.md
 articles/onboarding/transactional-onboarding.md
 articles/operate/index.md
+articles/organizations/active-organization.md
+articles/organizations/create-and-retrieve.md
 articles/organizations/index.md
+articles/organizations/invitations.md
+articles/organizations/isolation.md
+articles/organizations/lifecycle-events.md
+articles/organizations/memberships.md
+articles/organizations/organization-model.md
+articles/organizations/ownership-transfer.md
+articles/organizations/roles.md
+articles/organizations/settings.md
+articles/organizations/validated-context.md
 articles/overview/architecture-at-a-glance.md
 articles/overview/index.md
 articles/overview/naming.md

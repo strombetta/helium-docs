@@ -3,15 +3,15 @@ items:
   href: index.md
 - name: Organization model
   href: organization-model.md
-- name: Create and retrieve organizations
+- name: Discover and retrieve organizations
   href: create-and-retrieve.md
-- name: Organization settings
+- name: Update organization settings
   href: settings.md
 - name: Memberships
   href: memberships.md
 - name: Invitations
   href: invitations.md
-- name: Owner, Administrator and Member roles
+- name: Owner, Administrator, and Member roles
   href: roles.md
 - name: Ownership transfer
   href: ownership-transfer.md
