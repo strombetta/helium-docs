@@ -24,20 +24,10 @@ jobs:
         shell: python
         run: |
           from pathlib import Path
+          import re
 
           css_path = Path('templates/helium/public/main.css')
           css = css_path.read_text(encoding='utf-8')
-
-          old_font_face = '''@font-face {
-            font-family: "Manrope";
-            src: url("./fonts/manrope-latin-wght-normal.woff2") format("woff2-variations");
-            font-style: normal;
-            font-weight: 200 800;
-            font-display: swap;
-            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC,
-              U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F,
-              U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-          }'''
 
           new_font_face = '''@font-face {
             font-family: "Inter";
@@ -50,22 +40,22 @@ jobs:
               U+0308-0309, U+0323, U+0329, U+2000-206F, U+2074, U+20AC,
               U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
           }'''
+          css, count = re.subn(
+              r'@font-face \{\n  font-family: "Manrope";.*?\n\}',
+              new_font_face,
+              css,
+              count=1,
+              flags=re.DOTALL,
+          )
+          if count != 1:
+              raise SystemExit('Expected one Manrope @font-face declaration.')
 
-          if old_font_face not in css:
-              raise SystemExit('Expected Manrope @font-face declaration was not found.')
-          css = css.replace(old_font_face, new_font_face, 1)
-
-          old_family = '''  --helium-font-sans: "Manrope", system-ui, -apple-system, BlinkMacSystemFont,
-            "Segoe UI", sans-serif;'''
-          new_family = '''  --helium-font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
-            "Segoe UI", sans-serif;'''
+          old_family = '"Manrope", system-ui, -apple-system, BlinkMacSystemFont'
+          new_family = '"Inter", system-ui, -apple-system, BlinkMacSystemFont'
           if old_family not in css:
               raise SystemExit('Expected Manrope font stack was not found.')
           css = css.replace(old_family, new_family, 1)
 
-          old_h1 = '''h1 {
-            font-weight: 700;
-          }'''
           new_typography = '''h1 {
             margin: 20px 0;
             color: rgb(22, 22, 22);
@@ -92,13 +82,15 @@ jobs:
           [data-bs-theme="dark"] p {
             color: var(--helium-text);
           }'''
-          if old_h1 not in css:
-              raise SystemExit('Expected h1 declaration was not found.')
-          css = css.replace(old_h1, new_typography, 1)
+          css, count = re.subn(
+              r'h1 \{\n  font-weight: 700;\n\}',
+              new_typography,
+              css,
+              count=1,
+          )
+          if count != 1:
+              raise SystemExit('Expected one h1 declaration.')
 
-          old_breadcrumb = '''.breadcrumb {
-            font-size: 0.86rem;
-          }'''
           new_breadcrumb = '''.breadcrumb,
           .breadcrumb a,
           .breadcrumb-item,
@@ -114,9 +106,14 @@ jobs:
           [data-bs-theme="dark"] .breadcrumb-item.active {
             color: var(--helium-muted);
           }'''
-          if old_breadcrumb not in css:
-              raise SystemExit('Expected breadcrumb declaration was not found.')
-          css = css.replace(old_breadcrumb, new_breadcrumb, 1)
+          css, count = re.subn(
+              r'\.breadcrumb \{\n  font-size: 0\.86rem;\n\}',
+              new_breadcrumb,
+              css,
+              count=1,
+          )
+          if count != 1:
+              raise SystemExit('Expected one breadcrumb declaration.')
           css_path.write_text(css, encoding='utf-8')
 
           script_path = Path('scripts/restore-fonts.sh')
