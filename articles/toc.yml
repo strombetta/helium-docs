@@ -5,6 +5,8 @@ items:
   items:
   - name: "What is Helium?"
     href: overview/what-is-helium.md
+  - name: "Key capabilities"
+    href: overview/key-capabilities.md
   - name: "Why use Helium?"
     href: overview/why-use-helium.md
   - name: "Supported application model"
