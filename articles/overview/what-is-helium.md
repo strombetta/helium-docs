@@ -1,6 +1,6 @@
 ---
 title: What is Helium?
-description: Learn what Helium is, which SaaS capabilities it provides, and how it supports flexible and extensible ASP.NET Core applications.
+description: Learn what Helium is, how its SaaS capabilities work together, and how it supports flexible and extensible ASP.NET Core applications.
 uid: product-what-is-helium
 content_type: overview
 area: product
@@ -36,23 +36,7 @@ These concerns are closely related:
 
 Helium provides these concerns as coordinated modules with shared concepts, invariants, and lifecycle rules. Product teams do not need to design and reconcile a separate model for each capability.
 
-## What Helium provides
-
-Helium includes:
-
-- account registration, verification, authentication, session management, and account recovery;
-- organization onboarding and tenant management;
-- organization memberships, invitations, roles, and ownership;
-- organization context resolution and server-side authorization;
-- subscription billing and normalized local billing state;
-- plan- and subscription-based entitlements;
-- transactional notifications and reliable provider processing;
-- administration and audit capabilities;
-- persistence and database migrations for Helium-managed data;
-- health information, diagnostics, and deployment support;
-- public contracts, testing support, and documented extension points.
-
-Each module provides default workflows, user interfaces, and behavior that applications can use directly, configure, or extend through supported contracts.
+See [Key capabilities](key-capabilities.md) for a detailed description of each capability, its responsibilities, and how it relates to the rest of the framework.
 
 ## Flexible and extensible by design
 
@@ -110,4 +94,4 @@ Helium is most appropriate for teams that accept an opinionated model for common
 
 ## Next steps
 
-Read [Why use Helium?](why-use-helium.md) to understand its benefits and trade-offs, then review the [supported application model](supported-application-model.md) and [product scope and limitations](scope-and-limitations.md).
+Explore the [key capabilities](key-capabilities.md), read [Why use Helium?](why-use-helium.md) to understand its benefits and trade-offs, then review the [supported application model](supported-application-model.md) and [product scope and limitations](scope-and-limitations.md).
