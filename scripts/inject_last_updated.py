@@ -15,7 +15,10 @@ DEFAULT_MANIFEST = Path("last-updated.json")
 DEFAULT_SITE = Path("_site")
 LAST_UPDATED_MARKER = "data-helium-last-updated"
 H1_RE = re.compile(r"(<h1\b[^>]*>.*?</h1>)", re.IGNORECASE | re.DOTALL)
-CONTAINER_RE = re.compile(r"<(?:article|main|body)\b[^>]*>", re.IGNORECASE)
+CONTAINER_RES = tuple(
+    re.compile(rf"<{tag}\b[^>]*>", re.IGNORECASE)
+    for tag in ("article", "main", "body")
+)
 
 
 def format_en_us(iso_date: str) -> str:
@@ -53,12 +56,24 @@ def render_last_updated(iso_date: str) -> str:
     )
 
 
+def content_anchor(html: str) -> re.Match[str] | None:
+    """Find the preferred insertion point in generated page content."""
+    heading = H1_RE.search(html)
+    if heading:
+        return heading
+    for pattern in CONTAINER_RES:
+        container = pattern.search(html)
+        if container:
+            return container
+    return None
+
+
 def inject_markup(html: str, iso_date: str) -> str:
     """Insert last-updated markup near the start of the page content."""
     if LAST_UPDATED_MARKER in html:
         return html
 
-    anchor = H1_RE.search(html) or CONTAINER_RE.search(html)
+    anchor = content_anchor(html)
     if not anchor:
         raise ValueError("Generated page does not contain an H1 or content container")
 
