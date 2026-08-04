@@ -45,6 +45,9 @@ jobs:
       - name: Build documentation
         run: dotnet tool run docfx docfx.json --warningsAsErrors
 
+      - name: Add page update dates
+        run: python3 scripts/inject_last_updated.py
+
       - name: Detect documentation links
         id: documentation-links
         shell: bash
