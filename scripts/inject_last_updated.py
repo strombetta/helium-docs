@@ -15,6 +15,7 @@ DEFAULT_MANIFEST = Path("last-updated.json")
 DEFAULT_SITE = Path("_site")
 LAST_UPDATED_MARKER = "data-helium-last-updated"
 H1_RE = re.compile(r"(<h1\b[^>]*>.*?</h1>)", re.IGNORECASE | re.DOTALL)
+CONTAINER_RE = re.compile(r"<(?:article|main|body)\b[^>]*>", re.IGNORECASE)
 
 
 def format_en_us(iso_date: str) -> str:
@@ -53,16 +54,16 @@ def render_last_updated(iso_date: str) -> str:
 
 
 def inject_markup(html: str, iso_date: str) -> str:
-    """Insert last-updated markup after the first H1, preserving idempotency."""
+    """Insert last-updated markup near the start of the page content."""
     if LAST_UPDATED_MARKER in html:
         return html
 
-    match = H1_RE.search(html)
-    if not match:
-        raise ValueError("Generated page does not contain an H1 element")
+    anchor = H1_RE.search(html) or CONTAINER_RE.search(html)
+    if not anchor:
+        raise ValueError("Generated page does not contain an H1 or content container")
 
     markup = render_last_updated(iso_date)
-    return html[: match.end()] + "\n" + markup + html[match.end() :]
+    return html[: anchor.end()] + "\n" + markup + html[anchor.end() :]
 
 
 def inject_site(site: Path, manifest: Mapping[str, str]) -> int:
