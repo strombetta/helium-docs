@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
       - name: Set up .NET
         uses: actions/setup-dotnet@v6
@@ -37,8 +39,14 @@ jobs:
           python3 -m unittest discover -s scripts/tests -p 'test_*.py'
           python3 scripts/validate_authoring.py
 
+      - name: Generate page metadata
+        run: python3 scripts/generate_last_updated.py
+
       - name: Build documentation
         run: dotnet tool run docfx docfx.json --warningsAsErrors
+
+      - name: Add page update dates
+        run: python3 scripts/inject_last_updated.py
 
       - name: Detect documentation links
         id: documentation-links
