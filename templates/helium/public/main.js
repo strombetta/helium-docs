@@ -1,22 +1,3 @@
-const lastUpdatedManifestUrl = new URL('last-updated.json', import.meta.url);
-const lastUpdatedFormatter = new Intl.DateTimeFormat('en-US', {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric',
-  timeZone: 'UTC',
-});
-
-function manifestPathname() {
-  const assetBasePath = new URL('.', import.meta.url).pathname;
-  const pagePath = window.location.pathname;
-
-  if (assetBasePath !== '/' && pagePath.startsWith(assetBasePath)) {
-    return `/${pagePath.slice(assetBasePath.length)}`;
-  }
-
-  return pagePath;
-}
-
 function addLastUpdatedStyles() {
   if (document.querySelector('style[data-helium-last-updated]')) {
     return;
@@ -37,52 +18,6 @@ function addLastUpdatedStyles() {
     }
   `;
   document.head.append(stylesheet);
-}
-
-async function addLastUpdated() {
-  const article = document.querySelector('article');
-  const home = document.querySelector('.helium-home');
-  const container = article || home;
-  if (!container || container.querySelector('.helium-last-updated')) {
-    return;
-  }
-
-  try {
-    const response = await fetch(lastUpdatedManifestUrl, { cache: 'no-cache' });
-    if (!response.ok) {
-      return;
-    }
-
-    const manifest = await response.json();
-    const date = manifest[manifestPathname()];
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(date || '')) {
-      return;
-    }
-
-    const updated = document.createElement('p');
-    updated.className = 'helium-last-updated';
-    updated.append('Last updated: ');
-
-    const time = document.createElement('time');
-    time.dateTime = date;
-    time.textContent = lastUpdatedFormatter.format(new Date(`${date}T00:00:00Z`));
-    updated.append(time);
-
-    if (home) {
-      const lead = home.querySelector('.helium-lead');
-      if (lead) {
-        lead.insertAdjacentElement('afterend', updated);
-        return;
-      }
-    }
-
-    const heading = container.querySelector('h1');
-    if (heading) {
-      heading.insertAdjacentElement('afterend', updated);
-    }
-  } catch {
-    // Page metadata is supplemental and must not block documentation rendering.
-  }
 }
 
 function addArticleFeedback() {
@@ -121,7 +56,6 @@ function addArticleFeedback() {
 
 function start() {
   addLastUpdatedStyles();
-  void addLastUpdated();
   addArticleFeedback();
 }
 
