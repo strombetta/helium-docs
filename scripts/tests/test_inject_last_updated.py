@@ -41,6 +41,14 @@ class InjectLastUpdatedTests(unittest.TestCase):
         )
         self.assertEqual(updated, injector.inject_markup(updated, "2026-08-04"))
 
+    def test_inject_markup_falls_back_to_content_container(self) -> None:
+        original = "<html><body><main><p>Not found</p></main></body></html>"
+        updated = injector.inject_markup(original, "2026-08-04")
+        self.assertIn(
+            '<main>\n<p class="helium-last-updated" data-helium-last-updated>',
+            updated,
+        )
+
     def test_inject_site_updates_each_page_once_for_aliases(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             site = Path(directory) / "_site"
