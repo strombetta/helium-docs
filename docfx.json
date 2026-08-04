@@ -17,6 +17,7 @@
       {
         "files": [
           "images/**",
+          "last-updated.json",
           "staticwebapp.config.json"
         ]
       }
