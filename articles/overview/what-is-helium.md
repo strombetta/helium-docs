@@ -4,6 +4,9 @@ description: Learn what Helium is, how its SaaS capabilities work together, and 
 uid: product-what-is-helium
 content_type: overview
 area: product
+version: preview
+status: preview
+last_reviewed: 2026-07-30
 source:
   - docs/product/definition.md
   - docs/product/vision.md
