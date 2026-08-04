@@ -1,3 +1,4 @@
 _site/
 .cache/
+last-updated.json
 templates/helium/public/fonts/manrope-latin-wght-normal.woff2
