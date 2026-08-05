@@ -3,9 +3,4 @@ items:
   href: index.md
   items:
   - name: "What is Helium?"
-    href: index.md
-  - name: "Introduction"
-    href: index.md
-  - name: "Helium concepts"
-    href: index.md
-  
+    href: what-is-helium.md
