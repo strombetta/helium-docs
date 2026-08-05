@@ -7,6 +7,7 @@ area: product
 version: preview
 status: preview
 last_reviewed: 2026-08-05
+_layout: landing
 ---
 
 # Get started
