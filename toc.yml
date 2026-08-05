@@ -1,3 +1,5 @@
 items:
+- name: "Get started"
+  href: get-started/
 - name: "Documentation"
   href: articles/

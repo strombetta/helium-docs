@@ -9,7 +9,8 @@
           "toc.yml",
           "articles/**/*.{md,yml}",
           "api/**/*.{md,yml}",
-          "reference/**/*.{md,yml}"
+          "reference/**/*.{md,yml}",
+          "get-started/**/*.{md,yml}"
         ]
       }
     ],
