@@ -1,6 +1,11 @@
 items:
 - name: "Get Helium"
   href: index.md
+- name: "What is Helium?"
+  href: what-is-helium.md
+- name: "Introduction"
+  href: introduction.md
+- name: "Helium concepts"
   items:
-  - name: "What is Helium?"
-    href: what-is-helium.md
+  - name: "The basics"
+    href: concepts/the-basics.md
