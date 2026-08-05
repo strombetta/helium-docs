@@ -1,7 +1,7 @@
 ---
 title: What is Helium?
 description: Learn what Helium is, how its SaaS capabilities work together, and how it supports flexible and extensible ASP.NET Core applications.
-uid: product-what-is-helium
+uid: get-started-what-is-helium
 content_type: overview
 area: product
 version: preview
