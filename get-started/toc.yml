@@ -3,9 +3,9 @@ items:
   href: index.md
   items:
   - name: "What is Helium?"
-    href: application-composition.md
+    href: index.md
   - name: "Introduction"
-    href: common-contracts.md
+    href: index.md
   - name: "Helium concepts"
-    href: identity.md
+    href: index.md
   
