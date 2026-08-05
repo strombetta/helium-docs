@@ -39,8 +39,6 @@ These concerns are closely related:
 
 Helium provides these concerns as coordinated modules with shared concepts, invariants, and lifecycle rules. Product teams do not need to design and reconcile a separate model for each capability.
 
-See [Key capabilities](key-capabilities.md) for a detailed description of each capability, its responsibilities, and how it relates to the rest of the framework.
-
 ## Flexible and extensible by design
 
 Helium provides opinionated defaults without making those defaults a closed system.
@@ -94,7 +92,3 @@ Helium is intended for technical founders, software developers, and engineering 
 - are prepared to operate the resulting application.
 
 Helium is most appropriate for teams that accept an opinionated model for common SaaS capabilities in exchange for less repeated platform work, controlled extensibility, and a more consistent application foundation.
-
-## Next steps
-
-Explore the [key capabilities](key-capabilities.md), read [Why use Helium?](why-use-helium.md) to understand its benefits and trade-offs, then review the [supported application model](supported-application-model.md) and [product scope and limitations](scope-and-limitations.md).

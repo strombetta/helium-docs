@@ -1,7 +1,7 @@
 ---
 title: Get Started
 description: Evaluate the Helium preview, its supported application model, architecture, technology baseline, scope, and current implementation status.
-uid: product-overview
+uid: get-started-index
 content_type: index
 area: product
 version: preview
