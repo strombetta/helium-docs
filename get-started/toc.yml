@@ -1,10 +1,11 @@
 items:
-- name: Get Helium
+- name: "Get Helium"
   href: index.md
-- name: What is Helium?
-  href: application-composition.md
-- name: Introduction
-  href: common-contracts.md
-- name: Helium concepts
-  href: identity.md
+  items:
+  - name: "What is Helium?"
+    href: application-composition.md
+  - name: "Introduction"
+    href: common-contracts.md
+  - name: "Helium concepts"
+    href: identity.md
   
